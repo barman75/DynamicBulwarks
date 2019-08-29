@@ -34,13 +34,13 @@ if (_closestPlayerDist > 5) then {
 		[_object] remoteExec ["removeAllActions", 0];
 
 		_caller addAction [
-			"<t color='#00ffff'>Drop Object (Snap To Ground)</t>",
+			localize "STR_FNPICKUP_ACTION_PLACEGROUND",
 			'[_this select 3, _this select 1, _this select 2] call build_fnc_drop;',
 			_object
 		];
 
 		_caller addAction [
-			"<t color='#00ffff'>Place Object (Floating)</t>",
+			localize "STR_FNPICKUP_ACTION_PLACEFLOAT",
 			'[_this select 3, _this select 1, _this select 2] call build_fnc_place;',
 			_object
 		];
@@ -50,11 +50,11 @@ if (_closestPlayerDist > 5) then {
 
 	} else {
 
-		[format ["<t size='0.6' color='#ff3300'>Other players too close</t>"], -0, -0.02, 2, 0.1] call BIS_fnc_dynamicText;
+		[format [localize "STR_FNPICKUP_PLAYERSCLOSE"], -0, -0.02, 2, 0.1] call BIS_fnc_dynamicText;
 
 	};
 } else {
 
-	[format ["<t size='0.6' color='#ff3300'>You're already carrying an object!</t>"], -0, -0.02, 2, 0.1] call BIS_fnc_dynamicText;
+	[format [localize "STR_FNPICKUP_CARRYING"], -0, -0.02, 2, 0.1] call BIS_fnc_dynamicText;
 
 };

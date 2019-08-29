@@ -27,7 +27,7 @@ class startBox_Dialog
             w = 0.185 * safezoneW;
             h = 0.3 * safezoneH;
         };
-		
+
 		class ObjectPicture: RscPicture
         {
             idc = 1502;
@@ -37,11 +37,11 @@ class startBox_Dialog
             w = 0.2 * safezoneW;
             h = 0.2 * safezoneH;
         };
-		
+
         class startBox_buildButton: RscButton
         {
             idc = 1600;
-            text = "Purchase Building";
+            text = "$STR_DIALOG_BUILDBUTTON";
             x = 0.309 * safezoneW + safezoneX;
             y = 0.58 * safezoneH + safezoneY;
             w = 0.185 * safezoneW;
@@ -60,7 +60,7 @@ class startBox_Dialog
         class startBox_supportButton: RscButton
         {
             idc = 1601;
-            text = "Purchase Support";
+            text = "$STR_DIALOG_SUPPORTBUTTON";
             x = 0.505 * safezoneW + safezoneX;
             y = 0.58 * safezoneH + safezoneY;
             w = 0.185 * safezoneW;

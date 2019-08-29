@@ -12,7 +12,7 @@ publicVariable "playersInWave";
 
 bulwarkBox setVariable ["buildPhase", true, true];
 
-["TaskSucceeded",["Complete","Wave " + str attkWave + " complete!"]] remoteExec ["BIS_fnc_showNotification", 0];
+["TaskSucceeded",["Complete",localize "STR_FNENDWAVE_WAVE" + str attkWave + localize "STR_FNENDWAVE_COMPLETE"]] remoteExec ["BIS_fnc_showNotification", 0];
 RESPAWN_TIME = 0;
 publicVariable "RESPAWN_TIME";
 [RESPAWN_TIME] remoteExec ["setPlayerRespawnTime", 0];

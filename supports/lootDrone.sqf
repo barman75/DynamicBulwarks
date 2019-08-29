@@ -12,7 +12,7 @@ _curWave = attkWave;
 
 //deleteVehicle _droneBox;
 
-["IntelAdded",["Loot locations added to map"]] call BIS_fnc_showNotification;
+["IntelAdded",[localize "STR_LOOTDRONE_INTELADD"]] call BIS_fnc_showNotification;
 
 _loot = [] call loot_fnc_get;
 

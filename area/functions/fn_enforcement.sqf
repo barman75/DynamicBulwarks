@@ -31,13 +31,13 @@ while {_leaving} do {
 
 		// Warn the player that they're too far from the centre
 		case (_dist > BULWARK_RADIUS * 0.99): {
-			["<t color='#ff0000'>Warning: Leaving mission area!</t>", 0, 0.1, 2, 0] remoteExec ["BIS_fnc_dynamicText", _player];
+			[localize "STR_FNENFORCEMENT_WARNING01", 0, 0.1, 2, 0] remoteExec ["BIS_fnc_dynamicText", _player];
 		};
 		case (_dist > BULWARK_RADIUS * 0.95): {
-			["<t color='#ffff00'>Warning: Leaving mission area!</t>", 0, 0.1, 2, 0] remoteExec ["BIS_fnc_dynamicText", _player];
+			[localize "STR_FNENFORCEMENT_WARNING02", 0, 0.1, 2, 0] remoteExec ["BIS_fnc_dynamicText", _player];
 		};
 		case (_dist > BULWARK_RADIUS * 0.9): {
-			["<t color='#ffffff'>Warning: Leaving mission area!</t>", 0, 0.1, 2, 0] remoteExec ["BIS_fnc_dynamicText", _player];
+			[localize "STR_FNENFORCEMENT_WARNING03", 0, 0.1, 2, 0] remoteExec ["BIS_fnc_dynamicText", _player];
 		};
 
 		default {

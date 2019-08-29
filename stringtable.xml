@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="Dynamic Bulwarks Multilanguage">
+<Package name="Description">
+<Key ID="STR_DESCRIPTION_ONLOADINTRO">
+     <Original>Defend yourself</Original>
+     <English>Defend yourself</English>
+</Key>
+<Key ID="STR_DESCRIPTION_OVERVIEWTEXT">
+     <Original>Survive by scavenging equipment, in a randomly selected city, against ever increasing waves of hostiles.</Original>
+     <English>Survive by scavenging equipment, in a randomly selected city, against ever increasing waves of hostiles.</English>
+</Key>
+<Key ID="STR_DESCRIPTION_END1_TITLE">
+     <Original>END</Original>
+     <English>END</English>
+</Key>
+<Key ID="STR_DESCRIPTION_END1_SUBTITLE">
+     <Original>You were wiped out</Original>
+     <English>You were wiped out</English>
+</Key>
+<Key ID="STR_DESCRIPTION_END1_DESCRIPTION">
+     <Original>Game Over</Original>
+     <English>Game Over</English>
+</Key>
+<Key ID="STR_DESCRIPTION_END2_TITLE">
+     <Original>[BULWARK SAFE]</Original>
+     <English>[BULWARK SAFE]</English>
+</Key>
+<Key ID="STR_DESCRIPTION_END2_SUBTITLE">
+     <Original>You Won</Original>
+     <English>You Won</English>
+</Key>
+<Key ID="STR_DESCRIPTION_END2_DESCRIPTION">
+     <Original>Your bulwark is secure</Original>
+     <English>Your bulwark is secure</English>
+</Key>
+<Key ID="STR_DESCRIPTION_WAWESETTINGS">
+     <Original>======= Wave Settings =======</Original>
+     <English>======= Wave Settings =======</English>
+</Key>
+<Key ID="STR_DESCRIPTION_WAWESET_HOSTILENUMBER">
+     <Original>Number of hostiles per wave</Original>
+     <English>Number of hostiles per wave</English>
+</Key>
+<Key ID="STR_DESCRIPTION_WAWESET_LOW">
+     <Original>Low (Easiest)</Original>
+     <English>Low (Easiest)</English>
+</Key>
+<Key ID="STR_DESCRIPTION_WAWESET_NORMAL">
+     <Original>Normal</Original>
+     <English>Normal</English>
+</Key>
+<Key ID="STR_DESCRIPTION_WAWESET_DOUBLE">
+     <Original>Double</Original>
+     <English>Double</English>
+</Key>
+<Key ID="STR_DESCRIPTION_WAWESET_TRIPLE">
+     <Original>Tripple (Hardest)</Original>
+     <English>Tripple (Hardest)</English>
+</Key>
+<Key ID="STR_DESCRIPTION_WAWESET_MULTIPLIER">
+     <Original>Extra hostiles per player</Original>
+     <English>Extra hostiles per player</English>
+</Key>
+<Key ID="STR_DESCRIPTION_PISTOLS_UNTILWAVE">
+     <Original>Hostiles only use pistols until wave</Original>
+     <English>Hostiles only use pistols until wave</English>
+</Key>
+<Key ID="STR_DESCRIPTION_PISTOLS_FULLYARMED">
+     <Original>Start Fully Armed</Original>
+     <English>Start Fully Armed</English>
+</Key>
+<Key ID="STR_DESCRIPTION_BODY_CLEANUP">
+     <Original>Dead bodies remain for how many waves (dead bodies impact perfomance)</Original>
+     <English>Dead bodies remain for how many waves (dead bodies impact perfomance)</English>
+</Key>
+<Key ID="STR_DESCRIPTION_BODY_CLEANUP_NEXTRND">
+     <Original>0 (until next round begins)</Original>
+     <English>0 (until next round begins)</English>
+</Key>
+<Key ID="STR_DESCRIPTION_DOWN_TIME">
+     <Original>Time between rounds</Original>
+     <English>Time between rounds</English>
+</Key>
+<Key ID="STR_DESCRIPTION_DOWN_TIME_15">
+     <Original>15 Seconds</Original>
+     <English>15 Seconds</English>
+</Key>
+<Key ID="STR_DESCRIPTION_DOWN_TIME_30">
+     <Original>30 Seconds</Original>
+     <English>30 Seconds</English>
+</Key>
+<Key ID="STR_DESCRIPTION_DOWN_TIME_60">
+     <Original>1 Minute</Original>
+     <English>1 Minute</English>
+</Key>
+<Key ID="STR_DESCRIPTION_DOWN_TIME_90">
+     <Original>1 Minute 30 Seconds</Original>
+     <English>1 Minute 30 Seconds</English>
+</Key>
+<Key ID="STR_DESCRIPTION_DOWN_TIME_120">
+     <Original>2 Minutes</Original>
+     <English>2 Minutes</English>
+</Key>
+<Key ID="STR_DESCRIPTION_DOWN_TIME_180">
+     <Original>3 Minutes</Original>
+     <English>3 Minutes</English>
+</Key>
+<Key ID="STR_DESCRIPTION_DOWN_TIME_240">
+     <Original>4 Minutes</Original>
+     <English>4 Minutes</English>
+</Key>
+<Key ID="STR_DESCRIPTION_DOWN_TIME_300">
+     <Original>5 Minutes</Original>
+     <English>5 Minutes</English>
+</Key>
+<Key ID="STR_DESCRIPTION_MAX_WAVES">
+     <Original>How Many Waves</Original>
+     <English>How Many Waves</English>
+</Key>
+<Key ID="STR_DESCRIPTION_MAXWAVES_INF">
+     <Original>Infinite</Original>
+     <English>Infinite</English>
+</Key>
+<Key ID="STR_DESCRIPTION_MEDIKIT">
+     <Original>Medikits in Bulwark</Original>
+     <English>Medikits in Bulwark</English>
+</Key>
+<Key ID="STR_DESCRIPTION_MEDIKIT_0">
+     <Original>None</Original>
+     <English>None</English>
+</Key>
+<Key ID="STR_DESCRIPTION_MEDIKIT_1">
+     <Original>One</Original>
+     <English>One</English>
+</Key>
+<Key ID="STR_DESCRIPTION_MEDIKIT_2">
+     <Original>Two</Original>
+     <English>Two</English>
+</Key>
+<Key ID="STR_DESCRIPTION_MEDIKIT_3">
+     <Original>Three</Original>
+     <English>Three</English>
+</Key>
+<Key ID="STR_DESCRIPTION_MEDIKIT_4">
+     <Original>Four</Original>
+     <English>Four</English>
+</Key>
+<Key ID="STR_DESCRIPTION_MEDIKIT_5">
+     <Original>Five</Original>
+     <English>Five</English>
+</Key>
+<Key ID="STR_DESCRIPTION_MEDIKIT_6">
+     <Original>Six</Original>
+     <English>Six</English>
+</Key>
+<Key ID="STR_DESCRIPTION_MEDIKIT_7">
+     <Original>Seven</Original>
+     <English>Seven</English>
+</Key>
+<Key ID="STR_DESCRIPTION_MEDIKIT_8">
+     <Original>Eight</Original>
+     <English>Eight</English>
+</Key>
+<Key ID="STR_DESCRIPTION_STARTMAP">
+     <Original>Start with map</Original>
+     <English>Start with map</English>
+</Key>
+<Key ID="STR_DESCRIPTION_STARTWEAPON">
+     <Original>Start with a pistol</Original>
+     <English>Start with a pistol</English>
+</Key>
+<Key ID="STR_DESCRIPTION_NO">
+     <Original>No</Original>
+     <English>No</English>
+</Key>
+<Key ID="STR_DESCRIPTION_YES">
+     <Original>Yes</Original>
+     <English>Yes</English>
+</Key>
+<Key ID="STR_DESCRIPTION_STARTNVG">
+     <Original>Players start with NVG</Original>
+     <English>Players start with NVG</English>
+</Key>
+<Key ID="STR_DESCRIPTION_SPECIAL_WAVES">
+     <Original>Special Waves - suicide bombers, etc</Original>
+     <English>Special Waves - suicide bombers, etc</English>
+</Key>
+<Key ID="STR_DESCRIPTION_ARMOUR">
+     <Original>Vehicles can spawn after wave</Original>
+     <English>Vehicles can spawn after wave</English>
+</Key>
+<Key ID="STR_DESCRIPTION_NEVER">
+     <Original>Never</Original>
+     <English>Never</English>
+</Key>
+<Key ID="STR_DESCRIPTION_RANDOM_WEAPONS">
+     <Original>Randomize Hostile Weapons</Original>
+     <English>Randomize Hostile Weapons</English>
+</Key>
+<Key ID="STR_DESCRIPTION_HITMARKERS">
+     <Original>Point Hitmarkers on HUD</Original>
+     <English>Point Hitmarkers on HUD</English>
+</Key>
+<Key ID="STR_DESCRIPTION_BULWARKSET">
+     <Original>===== Bulwark Settings ======</Original>
+     <English>===== Bulwark Settings ======</English>
+</Key>
+<Key ID="STR_DESCRIPTION_BULWARK_RADIUS">
+     <Original>Mission area size</Original>
+     <English>Mission area size</English>
+</Key>
+<Key ID="STR_DESCRIPTION_BUL_RADIUS50">
+     <Original>(50m) Tiny</Original>
+     <English>(50m) Tiny</English>
+</Key>
+<Key ID="STR_DESCRIPTION_BUL_RADIUS100">
+     <Original>(100m) Small</Original>
+     <English>(100m) Small</English>
+</Key>
+<Key ID="STR_DESCRIPTION_BUL_RADIUS150">
+     <Original>(150m) Normal</Original>
+     <English>(150m) Normal</English>
+</Key>
+<Key ID="STR_DESCRIPTION_BUL_RADIUS200">
+     <Original>(200m) Large</Original>
+     <English>(200m) Large</English>
+</Key>
+<Key ID="STR_DESCRIPTION_BUL_RADIUS250">
+     <Original>(250m) Huge</Original>
+     <English>(250m) Huge</English>
+</Key>
+<Key ID="STR_DESCRIPTION_BULWARK_MINSIZE">
+     <Original>Minimum spawn room size</Original>
+     <English>Minimum spawn room size</English>
+</Key>
+<Key ID="STR_DESCRIPTION_BULWARK_LANDRATIO">
+     <Original>Minimum land area (To avoid spawning on a dock)</Original>
+     <English>Minimum land area (To avoid spawning on a dock)</English>
+</Key>
+<Key ID="STR_DESCRIPTION_HOUSE_DENSITY">
+     <Original>Minimum number of buildings in Bulwark radius</Original>
+     <English>Minimum number of buildings in Bulwark radius</English>
+</Key>
+<Key ID="STR_DESCRIPTION_LOOT_HOUSE_DIS">
+     <Original>Loot distribution</Original>
+     <English>Loot distribution</English>
+</Key>
+<Key ID="STR_DESCRIPTION_LOOT_HOUSE_DIST_1">
+     <Original>Every building</Original>
+     <English>Every building</English>
+</Key>
+<Key ID="STR_DESCRIPTION_LOOT_HOUSE_DIST_2">
+     <Original>Every second building</Original>
+     <English>Every second building</English>
+</Key>
+<Key ID="STR_DESCRIPTION_LOOT_HOUSE_DIST_3">
+     <Original>Every third building</Original>
+     <English>Every third building</English>
+</Key>
+<Key ID="STR_DESCRIPTION_LOOT_HOUSE_DIST_4">
+     <Original>Every fourth building</Original>
+     <English>Every fourth building</English>
+</Key>
+<Key ID="STR_DESCRIPTION_LOOT_ROOM_DIST">
+     <Original>Loot density</Original>
+     <English>Loot density</English>
+</Key>
+<Key ID="STR_DESCRIPTION_LOOT_ROOM_DIST_1">
+     <Original>Every location</Original>
+     <English>Every location</English>
+</Key>
+<Key ID="STR_DESCRIPTION_LOOT_ROOM_DIST_2">
+     <Original>Every second location</Original>
+     <English>Every second location</English>
+</Key>
+<Key ID="STR_DESCRIPTION_LOOT_ROOM_DIST_3">
+     <Original>Every third location</Original>
+     <English>Every third location</English>
+</Key>
+<Key ID="STR_DESCRIPTION_LOOT_ROOM_DIST_4">
+     <Original>Every fourth location</Original>
+     <English>Every fourth location</English>
+</Key>
+<Key ID="STR_DESCRIPTION_SUPPLYDROP">
+     <Original>Supply drop distance from centre</Original>
+     <English>Supply drop distance from centre</English>
+</Key>
+<Key ID="STR_DESCRIPTION_SUPPLYDROP_CENTR">
+     <Original>Dead centre</Original>
+     <English>Dead centre</English>
+</Key>
+<Key ID="STR_DESCRIPTION_TIMEFROM">
+     <Original>Earliest time of day</Original>
+     <English>Earliest time of day</English>
+</Key>
+<Key ID="STR_DESCRIPTION_TIME_02">
+     <Original>2am</Original>
+     <English>2am</English>
+</Key>
+<Key ID="STR_DESCRIPTION_TIME_04">
+     <Original>4am</Original>
+     <English>4am</English>
+</Key>
+<Key ID="STR_DESCRIPTION_TIME_06">
+     <Original>6am</Original>
+     <English>6am</English>
+</Key>
+<Key ID="STR_DESCRIPTION_TIME_08">
+     <Original>8am</Original>
+     <English>8am</English>
+</Key>
+<Key ID="STR_DESCRIPTION_TIME_10">
+     <Original>10am</Original>
+     <English>10am</English>
+</Key>
+<Key ID="STR_DESCRIPTION_TIME_12">
+     <Original>Midday</Original>
+     <English>Midday</English>
+</Key>
+<Key ID="STR_DESCRIPTION_TIME_14">
+     <Original>Midday</Original>
+     <English>Midday</English>
+</Key>
+<Key ID="STR_DESCRIPTION_TIME_16">
+     <Original>4pm</Original>
+     <English>4pm</English>
+</Key>
+<Key ID="STR_DESCRIPTION_TIME_18">
+     <Original>6pm</Original>
+     <English>6pm</English>
+</Key>
+<Key ID="STR_DESCRIPTION_TIME_20">
+     <Original>8pm</Original>
+     <English>8pm</English>
+</Key>
+<Key ID="STR_DESCRIPTION_TIME_22">
+     <Original>10pm</Original>
+     <English>10pm</English>
+</Key>
+<Key ID="STR_DESCRIPTION_TIMETO">
+     <Original>Latest time of day</Original>
+     <English>Latest time of day</English>
+</Key>
+<Key ID="STR_DESCRIPTION_POWERUP_LABEL">
+     <Original>====== Powerup Settings =====</Original>
+     <English>====== Powerup Settings =====</English>
+</Key>
+<Key ID="STR_DESCRIPTION_START_KILLPOINTS">
+     <Original>Kill points players start with</Original>
+     <English>Kill points players start with</English>
+</Key>
+<Key ID="STR_DESCRIPTION_SUPPORT_MENU">
+     <Original>Find Satellite Dish to Unlock Supports</Original>
+     <English>Find Satellite Dish to Unlock Supports</English>
+</Key>
+<Key ID="STR_DESCRIPTION_SUPPORT_MENU_NO">
+     <Original>No, Supports are available from the begining of the mission</Original>
+     <English>No, Supports are available from the begining of the mission</English>
+</Key>
+<Key ID="STR_DESCRIPTION_SUPPORT_MENU_YES">
+     <Original>Yes, find the Satellite Dish to unlock the Support Menu</Original>
+     <English>Yes, find the Satellite Dish to unlock the Support Menu</English>
+</Key>
+<Key ID="STR_DESCRIPTION_SCORE_KILL">
+     <Original>Points per kill</Original>
+     <English>Points per kill</English>
+</Key>
+<Key ID="STR_DESCRIPTION_SCORE_HIT">
+     <Original>Points per hit</Original>
+     <English>Points per hit</English>
+</Key>
+<Key ID="STR_DESCRIPTION_SCORE_DAMAGE">
+     <Original>Damage bonus points</Original>
+     <English>Damage bonus points</English>
+</Key>
+<Key ID="STR_DESCRIPTION_PARATROOP_COUNT">
+     <Original>Paratrooper count</Original>
+     <English>Paratrooper count</English>
+</Key>
+<Key ID="STR_DESCRIPTION_REVIVE_LABEL">
+     <Original>===== Revive Settings ======</Original>
+     <English>===== Revive Settings ======</English>
+</Key>
+<Key ID="STR_DESCRIPTION_REVIVE_ITEMS">
+     <Original>Required items</Original>
+     <English>Required items</English>
+</Key>
+<Key ID="STR_DESCRIPTION_REVIVE_NONE">
+     <Original>None</Original>
+     <English>None</English>
+</Key>
+<Key ID="STR_DESCRIPTION_REVIVE_MEDIKIT">
+     <Original>Medikit</Original>
+     <English>Medikit</English>
+</Key>
+<Key ID="STR_DESCRIPTION_REVIVE_FAKMEDIKIT">
+     <Original>First Aid Kit / Medikit</Original>
+     <English>First Aid Kit / Medikit</English>
+</Key>
+<Key ID="STR_DESCRIPTION_RESPAWN_TICKETS">
+     <Original>Tickets</Original>
+     <English>Tickets</English>
+</Key>
+<Key ID="STR_DESCRIPTION_RESPAWN_TIME">
+     <Original>Tickets</Original>
+     <English>Tickets</English>
+</Key>
+<Key ID="STR_DESCRIPTION_TEAM_DAMAGE">
+     <Original>Freindly Fire</Original>
+     <English>Freindly Fire</English>
+</Key>
+<Key ID="STR_DESCRIPTION_TEAMDAMAGE_ON">
+     <Original>Off</Original>
+     <English>Off</English>
+</Key>
+<Key ID="STR_DESCRIPTION_TEAMDAMAGE_OFF">
+     <Original>On</Original>
+     <English>On</English>
+</Key>
+</Package>
+
+<Package name="Editme">
+<Key ID="STR_EDITME_SUPPORTITEMS_RECONUAV">
+     <Original>Recon UAV</Original>
+     <English>Recon UAV</English>
+</Key>
+<Key ID="STR_EDITME_SUPPORTITEMS_TELEPORT">
+     <Original>Emergency Teleport</Original>
+     <English>Emergency Teleport</English>
+</Key>
+<Key ID="STR_EDITME_SUPPORTITEMS_PARADROP">
+     <Original>Paratroopers</Original>
+     <English>Paratroopers</English>
+</Key>
+<Key ID="STR_EDITME_SUPPORTITEMS_AIRSTRIKE">
+     <Original>Missile CAS</Original>
+     <English>Missile CAS</English>
+</Key>
+<Key ID="STR_EDITME_SUPPORTITEMS_MINEFIELD">
+     <Original>Mine Cluster Shell</Original>
+     <English>Mine Cluster Shell</English>
+</Key>
+<Key ID="STR_EDITME_SUPPORTITEMS_RAGEPACK">
+     <Original>Rage Stimpack</Original>
+     <English>Rage Stimpack</English>
+</Key>
+<Key ID="STR_EDITME_SUPPORTITEMS_MINDCONGAS">
+     <Original>Mind Control Gas</Original>
+     <English>Mind Control Gas</English>
+</Key>
+<Key ID="STR_EDITME_SUPPORTITEMS_ARMAKART">
+     <Original>ARMAKART TM</Original>
+     <English>ARMAKART TM</English>
+</Key>
+<Key ID="STR_EDITME_SUPPORTITEMS_DRONECONTROL">
+     <Original>Predator Drone</Original>
+     <English>Predator Drone</English>
+</Key>
+<Key ID="STR_EDITME_BUILD_LPLANK">
+     <Original>Long Plank (8m)</Original>
+     <English>Long Plank (8m)</English>
+</Key>
+<Key ID="STR_EDITME_BUILD_BARR4M">
+     <Original>Junk Barricade</Original>
+     <English>Junk Barricade</English>
+</Key>
+<Key ID="STR_EDITME_BUILD_SMALLRAMP">
+     <Original>Small Ramp (1m)</Original>
+     <English>Small Ramp (1m)</English>
+</Key>
+<Key ID="STR_EDITME_BUILD_TRIANGLE">
+     <Original>Flat Triangle (1m)</Original>
+     <English>Flat Triangle (1m)</English>
+</Key>
+<Key ID="STR_EDITME_BUILD_SBWALLHALF">
+     <Original>Short Sandbag Wall</Original>
+     <English>Short Sandbag Wall</English>
+</Key>
+<Key ID="STR_EDITME_BUILD_SBBARRHOLE">
+     <Original>Sandbag Barricade</Original>
+     <English>Sandbag Barricade</English>
+</Key>
+<Key ID="STR_EDITME_BUILD_CNCSHELTER">
+     <Original>Concrete Shelter</Original>
+     <English>Concrete Shelter</English>
+</Key>
+<Key ID="STR_EDITME_BUILD_GH_PLATFORM">
+     <Original>Concrete Walkway</Original>
+     <English>Concrete Walkway</English>
+</Key>
+<Key ID="STR_EDITME_BUILD_MIL_WALLBIG">
+     <Original>Tall Concrete Wall</Original>
+     <English>Tall Concrete Wall</English>
+</Key>
+<Key ID="STR_EDITME_BUILD_PORTABLELIGHT">
+     <Original>Portable Light</Original>
+     <English>Portable Light</English>
+</Key>
+<Key ID="STR_EDITME_BUILD_CNCBARRIERMEDIUM4">
+     <Original>Long Concrete Wall</Original>
+     <English>Long Concrete Wall</English>
+</Key>
+<Key ID="STR_EDITME_BUILD_VRSLOPE1">
+     <Original>Large Ramp</Original>
+     <English>Large Ramp</English>
+</Key>
+<Key ID="STR_EDITME_BUILD_BUNKERBLOCK01">
+     <Original>Bunker Block</Original>
+     <English>Bunker Block</English>
+</Key>
+<Key ID="STR_EDITME_BUILD_HBARRIER3">
+     <Original>H Barrier</Original>
+     <English>H Barrier</English>
+</Key>
+<Key ID="STR_EDITME_BUILD_HBARRIER5">
+     <Original>H Barrier</Original>
+     <English>H Barrier</English>
+</Key>
+<Key ID="STR_EDITME_BUILD_PIERLADDER">
+     <Original>Ladder</Original>
+     <English>Ladder</English>
+</Key>
+<Key ID="STR_EDITME_BUILD_SMALLSTORAGE">
+     <Original>Storage box small</Original>
+     <English>Storage box small</English>
+</Key>
+<Key ID="STR_EDITME_BUILD_STAIRS">
+     <Original>Stairs</Original>
+     <English>Stairs</English>
+</Key>
+<Key ID="STR_EDITME_BUILD_LAMPHALOGEN">
+     <Original>Hallogen Lamp</Original>
+     <English>Hallogen Lamp</English>
+</Key>
+<Key ID="STR_EDITME_BUILD_HBARRIERWALL4">
+     <Original>Double H Barrier</Original>
+     <English>Double H Barrier</English>
+</Key>
+<Key ID="STR_EDITME_BUILD_BLOCKCONCRETE">
+     <Original>Concrete Platform</Original>
+     <English>Concrete Platform</English>
+</Key>
+<Key ID="STR_EDITME_BUILD_LARGESTORAGE">
+     <Original>Storage box large</Original>
+     <English>Storage box large</English>
+</Key>
+<Key ID="STR_EDITME_BUILD_HMGHIGH">
+     <Original>Static HMG</Original>
+     <English>Static HMG</English>
+</Key>
+<Key ID="STR_EDITME_BUILD_SMALLBUNKER">
+     <Original>Small Bunker</Original>
+     <English>Small Bunker</English>
+</Key>
+<Key ID="STR_EDITME_BUILD_PILLBOXBUNKER">
+     <Original>Pillbox</Original>
+     <English>Pillbox</English>
+</Key>
+<Key ID="STR_EDITME_BUILD_GUARDTOWER">
+     <Original>Guard Tower</Original>
+     <English>Guard Tower</English>
+</Key>
+<Key ID="STR_EDITME_BUILD_MODULARBUNKER">
+     <Original>Modular Bunker</Original>
+     <English>Modular Bunker</English>
+</Key>
+</Package>
+
+<Package name="AreaEnforcement">
+<Key ID="STR_AREAENFORCEMENT_WARNING01">
+     <Original>&lt;t color='#ff0000'&gt;Warning: Leaving mission area!&lt;/t&gt;</Original>
+     <English>&lt;t color='#ff0000'&gt;Warning: Leaving mission area!&lt;/t&gt;</English>
+</Key>
+<Key ID="STR_AREAENFORCEMENT_WARNING02">
+     <Original>&lt;t color='#ffff00'&gt;Warning: Leaving mission area!&lt;/t&gt;</Original>
+     <English>&lt;t color='#ffff00'&gt;Warning: Leaving mission area!&lt;/t&gt;</English>
+</Key>
+<Key ID="STR_AREAENFORCEMENT_WARNING03">
+     <Original>&lt;t color='#ffffff'&gt;Warning: Leaving mission area!&lt;/t&gt;</Original>
+     <English>&lt;t color='#ffffff'&gt;Warning: Leaving mission area!&lt;/t&gt;</English>
+</Key>
+</Package>
+
+<Package name="FnEnforcement">
+<Key ID="STR_FNENFORCEMENT_WARNING01">
+     <Original>&lt;t color='#ff0000'&gt;Warning: Leaving mission area!&lt;/t&gt;</Original>
+     <English>&lt;t color='#ff0000'&gt;Warning: Leaving mission area!&lt;/t&gt;</English>
+</Key>
+<Key ID="STR_FNENFORCEMENT_WARNING02">
+     <Original>&lt;t color='#ffff00'&gt;Warning: Leaving mission area!&lt;/t&gt;</Original>
+     <English>&lt;t color='#ffff00'&gt;Warning: Leaving mission area!&lt;/t&gt;</English>
+</Key>
+<Key ID="STR_FNENFORCEMENT_WARNING03">
+     <Original>&lt;t color='#ffffff'&gt;Warning: Leaving mission area!&lt;/t&gt;</Original>
+     <English>&lt;t color='#ffffff'&gt;Warning: Leaving mission area!&lt;/t&gt;</English>
+</Key>
+</Package>
+
+<Package name="FnStartWave">
+<Key ID="STR_FNSTARTWAVE_SUICIDWAVE">
+     <Original>SUICIDE BOMBERS! Don't Let Them Get Close!</Original>
+     <English>SUICIDE BOMBERS! Don't Let Them Get Close!</English>
+</Key>
+<Key ID="STR_FNSTARTWAVE_MORTARWAVE">
+     <Original>MORTAR! FIND IT BEFORE IT DESTROYS THE BULWARK!</Original>
+     <English>MORTAR! FIND IT BEFORE IT DESTROYS THE BULWARK!</English>
+</Key>
+<Key ID="STR_FNSTARTWAVE_CIVS">
+     <Original>CIVILIANS Are Fleeing! Don't Shoot Them!</Original>
+     <English>CIVILIANS Are Fleeing! Don't Shoot Them!</English>
+</Key>
+<Key ID="STR_FNSTARTWAVE_NIGHTWAVE">
+     <Original>They mostly come at night. Mostly...</Original>
+     <English>They mostly come at night. Mostly...</English>
+</Key>
+<Key ID="STR_FNSTARTWAVE_FOGWAVE">
+     <Original>A dense fog is rolling in!</Original>
+     <English>A dense fog is rolling in!</English>
+</Key>
+<Key ID="STR_FNSTARTWAVE_SWTICHAROOWAVE">
+     <Original>You were overrun! Take back the bulwark!! Quickly!</Original>
+     <English>You were overrun! Take back the bulwark!! Quickly!</English>
+</Key>
+<Key ID="STR_FNSTARTWAVE_DEMINEWAVE">
+     <Original>Look up! They're sending drones!</Original>
+     <English>Look up! They're sending drones!</English>
+</Key>
+<Key ID="STR_FNSTARTWAVE_DEFECTORWAVE">
+     <Original>NATO Defectors Are Attacking Us!</Original>
+     <English>NATO Defectors Are Attacking Us!</English>
+</Key>
+<Key ID="STR_FNSTARTWAVE_INCOMING">
+     <Original>In-coming</Original>
+     <English>In-coming</English>
+</Key>
+<Key ID="STR_FNSTARTWAVE_WAVE">
+     <Original>Wave&lt;t&gt; &lt;/t&gt;</Original>
+     <English>Wave&lt;t&gt; &lt;/t&gt;</English>
+</Key>
+</Package>
+
+<Package name="Actions">
+<Key ID="STR_ACTION_DROP">
+     <Original>Drop</Original>
+     <English>Drop</English>
+</Key>
+<Key ID="STR_ACTION_PICKUP">
+     <Original>Pickup</Original>
+     <English>Pickup</English>
+</Key>
+<Key ID="STR_ACTION_MOVEUP">
+     <Original>Move Up</Original>
+     <English>Move Up</English>
+</Key>
+<Key ID="STR_ACTION_MOVEDOWN">
+     <Original>Move Down</Original>
+     <English>Move Down</English>
+</Key>
+<Key ID="STR_ACTION_SHOP">
+     <Original>Shop</Original>
+     <English>Shop</English>
+</Key>
+<Key ID="STR_ACTION_HEAL">
+     <Original>Heal Yourself: 500p</Original>
+     <English>Heal Yourself: 500p</English>
+</Key>
+<Key ID="STR_ACTION_FILLAMMO">
+     <Original>FILL AMMO</Original>
+     <English>FILL AMMO</English>
+</Key>
+<Key ID="STR_ACTION_REMOVEOBJECT">
+     <Original>Remove Object</Original>
+     <English>Remove Object</English>
+</Key>
+<Key ID="STR_ACTION_PLACEOBJECT">
+     <Original>Place Object</Original>
+     <English>Place Object</English>
+</Key>
+<Key ID="STR_ACTION_UNLOCKSUPPORT">
+     <Original>Unlock Support Menu</Original>
+     <English>Unlock Support Menu</English>
+</Key>
+<Key ID="STR_ACTION_SPINTHEBOX">
+     <Original>&lt;t color='#FF0000'&gt;Spin the box! %1p&lt;/t&gt;</Original>
+     <English>&lt;t color='#FF0000'&gt;Spin the box! %1p&lt;/t&gt;</English>
+</Key>
+<Key ID="STR_ACTION_REVEALLOOT">
+     <Original>Reveal loot</Original>
+     <English>Reveal loot</English>
+</Key>
+<Key ID="STR_ACTION_COLLECTPOINTS">
+     <Original>Collect Points</Original>
+     <English>Collect Points</English>
+</Key>
+<Key ID="STR_HELDBUILDOBJECT_WARNING">
+     <Original>&lt;t color=''#ff0000''&gt;Warning: Other players too close to pick this up&lt;/t&gt;</Original>
+     <English>&lt;t color=''#ff0000''&gt;Warning: Other players too close to pick this up&lt;/t&gt;</English>
+</Key>
+<Key ID="STR_FNDROP_ACTION_REMOVEOBJ">
+     <Original>&lt;t color='#ff0000'&gt;Remove Object&lt;/t&gt;</Original>
+     <English>&lt;t color='#ff0000'&gt;Remove Object&lt;/t&gt;</English>
+</Key>
+<Key ID="STR_FNDROP_ACTION_MOVEUP">
+     <Original>&lt;t color='#00ffff'&gt;Move Up&lt;/t&gt;</Original>
+     <English>&lt;t color='#00ffff'&gt;Move Up&lt;/t&gt;</English>
+</Key>
+<Key ID="STR_FNDROP_ACTION_MOVEDOWN">
+     <Original>&lt;t color='#00ff00'&gt;Move Down&lt;/t&gt;</Original>
+     <English>&lt;t color='#00ff00'&gt;Move Down&lt;/t&gt;</English>
+</Key>
+<Key ID="STR_FNDROP_ACTION_PICKUP">
+     <Original>&lt;t color='#ffffff'&gt;Pickup&lt;/t&gt;</Original>
+     <English>&lt;t color='#ffffff'&gt;Pickup&lt;/t&gt;</English>
+</Key>
+<Key ID="STR_FNDROP_ACTION_RESET">
+     <Original>&lt;t color='#ffff00'&gt;Reset Rotation&lt;/t&gt;</Original>
+     <English>&lt;t color='#ffff00'&gt;Reset Rotation&lt;/t&gt;</English>
+</Key>
+<Key ID="STR_FNPLACE_ACTION_MOVEUP">
+     <Original>&lt;t color="#00ffff"&gt;Move Up&lt;/t&gt;</Original>
+     <English>&lt;t color="#00ffff"&gt;Move Up&lt;/t&gt;</English>
+</Key>
+<Key ID="STR_FNPLACE_ACTION_MOVEDOWN">
+     <Original>&lt;t color="#00ff00"&gt;Move Down&lt;/t&gt;</Original>
+     <English>&lt;t color="#00ff00"&gt;Move Down&lt;/t&gt;</English>
+</Key>
+<Key ID="STR_FNPLACE_ACTION_REMOVEOBJECT">
+     <Original>&lt;t color="#ff0000"&gt;Remove Object&lt;/t&gt;</Original>
+     <English>&lt;t color="#ff0000"&gt;Remove Object&lt;/t&gt;</English>
+</Key>
+<Key ID="STR_FNPLACE_ACTION_PICKUPOBJECT">
+     <Original>&lt;t color="#ffffff"&gt;Pickup&lt;/t&gt;</Original>
+     <English>&lt;t color="#ffffff"&gt;Pickup&lt;/t&gt;</English>
+</Key>
+<Key ID="STR_FNPLACE_ACTION_ACTION_RESET">
+     <Original>&lt;t color='#ffff00'&gt;Reset Rotation&lt;/t&gt;</Original>
+     <English>&lt;t color='#ffff00'&gt;Reset Rotation&lt;/t&gt;</English>
+</Key>
+<Key ID="STR_FNPICKUP_ACTION_PLACEGROUND">
+     <Original>&lt;t color='#00ffff'&gt;Drop Object (Snap To Ground)&lt;/t&gt;</Original>
+     <English>&lt;t color='#00ffff'&gt;Drop Object (Snap To Ground)&lt;/t&gt;</English>
+</Key>
+<Key ID="STR_FNPICKUP_ACTION_PLACEFLOAT">
+  <Original>&lt;t color='#00ffff'&gt;Place Object (Floating)&lt;/t&gt;</Original>
+  <English>&lt;t color='#00ffff'&gt;Place Object (Floating)&lt;/t&gt;</English>
+
+</Key>
+<Key ID="STR_FNPICKUP_PLAYERSCLOSE">
+     <Original>&lt;t size='0.6' color='#ff3300'&gt;Other players too close&lt;/t&gt;</Original>
+     <English>&lt;t size='0.6' color='#ff3300'&gt;Other players too close&lt;/t&gt;</English>
+</Key>
+<Key ID="STR_FNPICKUP_CARRYING">
+     <Original>&lt;t size='0.6' color='#ff3300'&gt;You're already carrying an object!&lt;/t&gt;</Original>
+     <English>&lt;t size='0.6' color='#ff3300'&gt;You're already carrying an object!&lt;/t&gt;</English>
+</Key>
+</Package>
+
+<Package name="Common">
+<Key ID="STR_FNSTARTWAVE_COUNTER">
+     <Original>&lt;t&gt;%1&lt;/t&gt;</Original>
+     <English>&lt;t&gt;%1&lt;/t&gt;</English>
+</Key>
+<Key ID="STR_FNENDWAVE_WAVE">
+     <Original>Wave&lt;t&gt; &lt;/t&gt;</Original>
+     <English>Wave&lt;t&gt; &lt;/t&gt;</English>
+</Key>
+<Key ID="STR_FNENDWAVE_COMPLETE">
+     <Original>&lt;t&gt; &lt;/t&gt;complete!</Original>
+     <English>&lt;t&gt; &lt;/t&gt;complete!</English>
+</Key>
+<Key ID="STR_CREATEBASE_CONVERTFAK">
+     <Original>&lt;t size = '.5'&gt;Place 15 FAKs into the Bulwark to convert them into a Medikit&lt;/t&gt;</Original>
+     <English>&lt;t size = '.5'&gt;Place 15 FAKs into the Bulwark to convert them into a Medikit&lt;/t&gt;</English>
+</Key>
+<Key ID="STR_CREATEBASE_MISSIONAREA">
+     <Original>Mission Area</Original>
+     <English>Mission Area</English>
+</Key>
+<Key ID="STR_LOOTDRONE_INTELADD">
+     <Original>Loot locations added to map</Original>
+     <English>Loot locations added to map</English>
+</Key>
+<Key ID="STR_RECONDRONE_INTELADD">
+     <Original>Hostiles added to MAP</Original>
+     <English>Hostiles added to MAP</English>
+</Key>
+<Key ID="STR_COMMUNICATIONMENU_PARADROP">
+     <Original>Paratroops</Original>
+     <English>Paratroops</English>
+</Key>
+<Key ID="STR_COMMUNICATIONMENU_RECONUAV">
+     <Original>Recon UAV</Original>
+     <English>Recon UAV</English>
+</Key>
+<Key ID="STR_COMMUNICATIONMENU_AIRSTRIKE">
+     <Original>Missle CAS</Original>
+     <English>Missle CAS</English>
+</Key>
+<Key ID="STR_COMMUNICATIONMENU_RAGEPACK">
+     <Original>Rage Stimpack</Original>
+     <English>Rage Stimpack</English>
+</Key>
+<Key ID="STR_COMMUNICATIONMENU_ARMAKART">
+     <Original>ARMAKART TM</Original>
+     <English>ARMAKART TM</English>
+</Key>
+<Key ID="STR_COMMUNICATIONMENU_MINDCONGAS">
+     <Original>Mind Control Gas</Original>
+     <English>Mind Control Gas</English>
+</Key>
+<Key ID="STR_COMMUNICATIONMENU_DRONECONTROL">
+     <Original>Predator Drone</Original>
+     <English>Predator Drone</English>
+</Key>
+<Key ID="STR_COMMUNICATIONMENU_MINEFIELD">
+     <Original>Mine Field</Original>
+     <English>Mine Field</English>
+</Key>
+<Key ID="STR_COMMUNICATIONMENU_TELEPLODE">
+     <Original>Emergency Teleport</Original>
+     <English>Emergency Teleport</English>
+</Key>
+
+<Key ID="STR_SPAWNLOOT_SUPPORTUNLOCKED">
+     <Original>Support Menu Unlocked at Bulwark Box</Original>
+     <English>Support Menu Unlocked at Bulwark Box</English>
+</Key>
+<Key ID="STR_DIALOG_BUILDBUTTON">
+     <Original>Purchase Building</Original>
+     <English>Purchase Building</English>
+</Key>
+<Key ID="STR_DIALOG_SUPPORTBUTTON">
+     <Original>Purchase Support</Original>
+     <English>Purchase Support</English>
+</Key>
+<Key ID="STR_INITPLAYERLOCAL_BULWARK_LABEL">
+     <Original>Bulwark</Original>
+     <English>Bulwark</English>
+</Key>
+<Key ID="STR_INITPLAYERLOCAL_DIARY_BULWARKS">
+     <Original>Dynamic Bulwarks</Original>
+     <English>Dynamic Bulwarks</English>
+</Key>
+<Key ID="STR_INITPLAYERLOCAL_DIARY_LOOTING">
+     <Original>Looting</Original>
+     <English>Looting</English>
+</Key>
+<Key ID="STR_INITPLAYERLOCAL_DIARY_LOOTING_TEXT">
+     <Original>&lt;br /&gt;Loot such as weapons, ammo, clothing and equipement can be found in buildings. Almost every item in the game (and any mods you have loaded) should be possible to find.
+&lt;br /&gt;&lt;br /&gt;There are also some special loot items that can be found:
+&lt;br /&gt;&lt;br /&gt;&lt;font color='#FFCC00'&gt;Loot Drone&lt;/font&gt; - Find the purple drone box to reveal all the loot on the map
+&lt;br /&gt;&lt;br /&gt;&lt;font color='#FFCC00'&gt;Cash Money&lt;/font&gt; - Finding the pile of cash gives you points based on the kill points multiplier (default 5000).
+&lt;br /&gt;&lt;br /&gt;&lt;font color='#FFCC00'&gt;Spin Box&lt;/font&gt; - An innocuous wooden box that's definitely not a ripoff from a popular Zombie game... If you find the box you can spin it for random weapons, for a price of course. Be warned, eventually the box will steal your money and move to a new location.
+&lt;br /&gt;&lt;br /&gt;&lt;font color='#FFCC00'&gt;Satellite Dish&lt;/font&gt; - Unlocks the Support Menu at the Bulwark Box and rewards you with Points! One will spawn each wave until found. (Needs to be enabled in mission paramters)</Original>
+     <English>&lt;br /&gt;Loot such as weapons, ammo, clothing and equipement can be found in buildings. Almost every item in the game (and any mods you have loaded) should be possible to find.
+&lt;br /&gt;&lt;br /&gt;There are also some special loot items that can be found:
+&lt;br /&gt;&lt;br /&gt;&lt;font color='#FFCC00'&gt;Loot Drone&lt;/font&gt; - Find the purple drone box to reveal all the loot on the map
+&lt;br /&gt;&lt;br /&gt;&lt;font color='#FFCC00'&gt;Cash Money&lt;/font&gt; - Finding the pile of cash gives you points based on the kill points multiplier (default 5000).
+&lt;br /&gt;&lt;br /&gt;&lt;font color='#FFCC00'&gt;Spin Box&lt;/font&gt; - An innocuous wooden box that's definitely not a ripoff from a popular Zombie game... If you find the box you can spin it for random weapons, for a price of course. Be warned, eventually the box will steal your money and move to a new location.
+&lt;br /&gt;&lt;br /&gt;&lt;font color='#FFCC00'&gt;Satellite Dish&lt;/font&gt; - Unlocks the Support Menu at the Bulwark Box and rewards you with Points! One will spawn each wave until found. (Needs to be enabled in mission paramters)</English>
+</Key>
+<Key ID="STR_INITPLAYERLOCAL_DIARY_SUPPORTS">
+     <Original>Supports</Original>
+     <English>Supports</English>
+</Key>
+<Key ID="STR_INITPLAYERLOCAL_DIARY_SUPPORTS_TEXT">
+<Original>&lt;br /&gt;Supports can be purchased at the Bulwark Box. To use a Support bring up the Support menu &lt;font color='#FFCC00'&gt;(Default keys '0' then '8')&lt;/font&gt;.
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;font color='#FFCC00'&gt;Recon UAV&lt;/font&gt; - Shows All hostiles on the map until shot down
+&lt;br /&gt;&lt;br /&gt;&lt;font color='#FFCC00'&gt;Paratroopers&lt;/font&gt; - AI Reinforcements paradrop wherever you are looking or on a selected location on the map
+&lt;br /&gt;&lt;br /&gt;&lt;font color='#FFCC00'&gt;Predator Drone&lt;/font&gt; - Take control of a UAV armed with 6 Skalpel Missiles (Drone self destructs when out of ammo)
+&lt;br /&gt;&lt;br /&gt;&lt;font color='#FFCC00'&gt;Missile CAS&lt;/font&gt; - Calls in an airstrike wherever you are looking or on a selected location on the map
+&lt;br /&gt;&lt;br /&gt;&lt;font color='#FFCC00'&gt;Mine Cluster Shell&lt;/font&gt; - Call in a Mine Cluster Shell to create an instant mine field wherever you are looking or on a selected location on the map
+&lt;br /&gt;&lt;br /&gt;&lt;font color='#FFCC00'&gt;Rage Stimpack&lt;/font&gt; - No need to reload, unlimited ammo, invicibility and increased speed for a short time.
+&lt;br /&gt;&lt;br /&gt;&lt;font color='#FFCC00'&gt;ARMAKART TM&lt;/font&gt; - 1 minute in an invincible Go-Kart with an automatically targeting HMG
+&lt;br /&gt;&lt;br /&gt;&lt;font color='#FFCC00'&gt;Emergency Teleport&lt;/font&gt; - Teleports you back to the Bulwark Box but it's unstable and will create an explosion at your original position
+&lt;br /&gt;&lt;br /&gt;&lt;font color='#FFCC00'&gt;Mind Control Gas&lt;/font&gt; - Deploy a gas canister wherever you are looking or on a selected location on the map. Units that enter the gas will join your team! That's good! But the gas is fatal and the units die at the end of the wave... That's bad.
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Some Supports can be targeted by just looking at the target when you call the Support. Alternatively, you can use your map to target the support by openning your map and bring up the support menu. Have the support highlighted and then middle click your mouse on the map to have the support target that location.</Original>
+<English>&lt;br /&gt;Supports can be purchased at the Bulwark Box. To use a Support bring up the Support menu &lt;font color='#FFCC00'&gt;(Default keys '0' then '8')&lt;/font&gt;.
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;font color='#FFCC00'&gt;Recon UAV&lt;/font&gt; - Shows All hostiles on the map until shot down
+&lt;br /&gt;&lt;br /&gt;&lt;font color='#FFCC00'&gt;Paratroopers&lt;/font&gt; - AI Reinforcements paradrop wherever you are looking or on a selected location on the map
+&lt;br /&gt;&lt;br /&gt;&lt;font color='#FFCC00'&gt;Predator Drone&lt;/font&gt; - Take control of a UAV armed with 6 Skalpel Missiles (Drone self destructs when out of ammo)
+&lt;br /&gt;&lt;br /&gt;&lt;font color='#FFCC00'&gt;Missile CAS&lt;/font&gt; - Calls in an airstrike wherever you are looking or on a selected location on the map
+&lt;br /&gt;&lt;br /&gt;&lt;font color='#FFCC00'&gt;Mine Cluster Shell&lt;/font&gt; - Call in a Mine Cluster Shell to create an instant mine field wherever you are looking or on a selected location on the map
+&lt;br /&gt;&lt;br /&gt;&lt;font color='#FFCC00'&gt;Rage Stimpack&lt;/font&gt; - No need to reload, unlimited ammo, invicibility and increased speed for a short time.
+&lt;br /&gt;&lt;br /&gt;&lt;font color='#FFCC00'&gt;ARMAKART TM&lt;/font&gt; - 1 minute in an invincible Go-Kart with an automatically targeting HMG
+&lt;br /&gt;&lt;br /&gt;&lt;font color='#FFCC00'&gt;Emergency Teleport&lt;/font&gt; - Teleports you back to the Bulwark Box but it's unstable and will create an explosion at your original position
+&lt;br /&gt;&lt;br /&gt;&lt;font color='#FFCC00'&gt;Mind Control Gas&lt;/font&gt; - Deploy a gas canister wherever you are looking or on a selected location on the map. Units that enter the gas will join your team! That's good! But the gas is fatal and the units die at the end of the wave... That's bad.
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Some Supports can be targeted by just looking at the target when you call the Support. Alternatively, you can use your map to target the support by openning your map and bring up the support menu. Have the support highlighted and then middle click your mouse on the map to have the support target that location.</English>
+</Key>
+<Key ID="STR_INITPLAYERLOCAL_DIARY_HOWTOPLAY">
+     <Original>How to Play</Original>
+     <English>How to Play</English>
+</Key>
+<Key ID="STR_INITPLAYERLOCAL_DIARY_HOWTOPLAY_TEXT">
+     <Original>&lt;img image='preview.paa' height=175 width=350/&gt;&lt;br /&gt;&lt;br /&gt;&lt;font color='#FFCC00'&gt;You are unarmed and there are hostile untis moving towards you. Survive for as many waves as possible.&lt;/font&gt;
+&lt;br /&gt;&lt;br /&gt;Search buildings for weapons, equipment and supplies. Build a Bulwark and defend it for as long as you can!
+&lt;br /&gt;&lt;br /&gt;Kill enemies to earn points to spend at the Bulwark Box Shop (in the action menu on the Bulwark Box). Points can be used to purchase Building Supplies and Supports. Purchased Supports can be used via the Supports menu (0 - 8 on keyboard).
+&lt;br /&gt;&lt;br /&gt;Allies will make regular ammo drops! Initially marked with blue smoke, find these wooden crates to get much needed ammo for your weapon.
+&lt;br /&gt;&lt;br /&gt;If you are knocked unconscious but you have a Medikit in your inventory you will be automatically resurected within 10 seconds. 15 FAKs can be converted into a Medikit at the Bulwark Box.
+&lt;br /&gt;&lt;br /&gt;&lt;font color='#FFCC00'&gt;You won't survive this fight but take as many of the bastards with you as you can!&lt;/font&gt;</Original>
+     <English>&lt;img image='preview.paa' height=175 width=350/&gt;&lt;br /&gt;&lt;br /&gt;&lt;font color='#FFCC00'&gt;You are unarmed and there are hostile untis moving towards you. Survive for as many waves as possible.&lt;/font&gt;
+&lt;br /&gt;&lt;br /&gt;Search buildings for weapons, equipment and supplies. Build a Bulwark and defend it for as long as you can!
+&lt;br /&gt;&lt;br /&gt;Kill enemies to earn points to spend at the Bulwark Box Shop (in the action menu on the Bulwark Box). Points can be used to purchase Building Supplies and Supports. Purchased Supports can be used via the Supports menu (0 - 8 on keyboard).
+&lt;br /&gt;&lt;br /&gt;Allies will make regular ammo drops! Initially marked with blue smoke, find these wooden crates to get much needed ammo for your weapon.
+&lt;br /&gt;&lt;br /&gt;If you are knocked unconscious but you have a Medikit in your inventory you will be automatically resurected within 10 seconds. 15 FAKs can be converted into a Medikit at the Bulwark Box.
+&lt;br /&gt;&lt;br /&gt;&lt;font color='#FFCC00'&gt;You won't survive this fight but take as many of the bastards with you as you can!&lt;/font&gt;</English>
+</Key>
+<Key ID="STR_FNUPDATEHUD_HUDTEXT">
+     <Original>&lt;t size='1.2' color='#ffffff'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t size='1.5' color='#dddddd'&gt;%2&lt;/t&gt;&lt;br/&gt;&lt;t size='0.9' color='#cee5d0'&gt;Wave: %3&lt;/t&gt;&lt;br/&gt;&lt;t size='0.9' color='#cee5d0'&gt;Tickets: %4&lt;/t&gt;</Original>
+     <English>&lt;t size='1.2' color='#ffffff'&gt;%1&lt;/t&gt;&lt;br/&gt;&lt;t size='1.5' color='#dddddd'&gt;%2&lt;/t&gt;&lt;br/&gt;&lt;t size='0.9' color='#cee5d0'&gt;Wave: %3&lt;/t&gt;&lt;br/&gt;&lt;t size='0.9' color='#cee5d0'&gt;Tickets: %4&lt;/t&gt;</English>
+</Key>
+</Package>
+</Project>

@@ -12,7 +12,7 @@
 
 for ("_i") from 0 to 14 do {
 	if(_i > 10) then {"beep_target" remoteExec ["playsound", 0];} else {"readoutClick" remoteExec ["playsound", 0];};
-	[format ["<t>%1</t>", 15-_i], 0, 0, 1, 0] remoteExec ["BIS_fnc_dynamicText", 0];
+	[format [localize "STR_FNSTARTWAVE_COUNTER", 15-_i], 0, 0, 1, 0] remoteExec ["BIS_fnc_dynamicText", 0];
 	sleep 1;
 };
 
@@ -207,32 +207,32 @@ if (SpecialWaveType == "defectorWave") then {
 
 //Notify start of wave and type of wave
 if (suicideWave) then {
-	["SpecialWarning",["SUICIDE BOMBERS! Don't Let Them Get Close!"]] remoteExec ["BIS_fnc_showNotification", 0];
+	["SpecialWarning",[localize "STR_FNSTARTWAVE_SUICIDWAVE"]] remoteExec ["BIS_fnc_showNotification", 0];
 	["Alarm"] remoteExec ["playSound", 0];
 };
 
 if (specMortarWave) then {
-	["SpecialWarning",["MORTAR! FIND IT BEFORE IT DESTROYS THE BULWARK!"]] remoteExec ["BIS_fnc_showNotification", 0];
+	["SpecialWarning",[localize "STR_FNSTARTWAVE_MORTARWAVE"]] remoteExec ["BIS_fnc_showNotification", 0];
 	["Alarm"] remoteExec ["playSound", 0];
 };
 
 if (specCivs) then {
-	["SpecialWarning",["CIVILIANS Are Fleeing! Don't Shoot Them!"]] remoteExec ["BIS_fnc_showNotification", 0];
+	["SpecialWarning",[localize "STR_FNSTARTWAVE_CIVS"]] remoteExec ["BIS_fnc_showNotification", 0];
 	["Alarm"] remoteExec ["playSound", 0];
 };
 
 if (nightWave) then {
-	["SpecialWarning",["They mostly come at night. Mostly..."]] remoteExec ["BIS_fnc_showNotification", 0];
+	["SpecialWarning",[localize "STR_FNSTARTWAVE_NIGHTWAVE"]] remoteExec ["BIS_fnc_showNotification", 0];
 	["Alarm"] remoteExec ["playSound", 0];
 };
 
 if (fogWave) then {
-	["SpecialWarning",["A dense fog is rolling in!"]] remoteExec ["BIS_fnc_showNotification", 0];
+	["SpecialWarning",[localize "STR_FNSTARTWAVE_FOGWAVE"]] remoteExec ["BIS_fnc_showNotification", 0];
 	["Alarm"] remoteExec ["playSound", 0];
 };
 
 if (swticharooWave) then {
-	["SpecialWarning",["You were overrun! Take back the bulwark!! Quickly!"]] remoteExec ["BIS_fnc_showNotification", 0];
+	["SpecialWarning",[localize "STR_FNSTARTWAVE_SWTICHAROOWAVE"]] remoteExec ["BIS_fnc_showNotification", 0];
 	["Alarm"] remoteExec ["playSound", 0];
 	_secCount = 0;
 	_deadUnconscious = [];
@@ -267,17 +267,17 @@ if (swticharooWave) then {
 };
 
 if (demineWave) then {
-	["SpecialWarning",["Look up! They're sending drones!"]] remoteExec ["BIS_fnc_showNotification", 0];
+	["SpecialWarning",[localize "STR_FNSTARTWAVE_DEMINEWAVE"]] remoteExec ["BIS_fnc_showNotification", 0];
 	["Alarm"] remoteExec ["playSound", 0];
 };
 
 if (defectorWave) then {
-	["SpecialWarning",["NATO Defectors Are Attacking Us!"]] remoteExec ["BIS_fnc_showNotification", 0];
+	["SpecialWarning",[localize "STR_FNSTARTWAVE_DEFECTORWAVE"]] remoteExec ["BIS_fnc_showNotification", 0];
 	["Alarm"] remoteExec ["playSound", 0];
 };
 
 if (!specialWave) then {
-	["TaskAssigned",["In-coming","Wave " + str attkWave]] remoteExec ["BIS_fnc_showNotification", 0];
+	["TaskAssigned",[localize "STR_FNSTARTWAVE_INCOMING",localize "STR_FNSTARTWAVE_WAVE" + str attkWave]] remoteExec ["BIS_fnc_showNotification", 0];
 };
 
 {

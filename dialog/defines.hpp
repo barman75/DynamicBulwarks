@@ -129,7 +129,7 @@ class RscText
 		0,
 		0.5
 	};
-	font = "PuristaMedium";
+	font = "RobotoCondensed";
 	SizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 	linespacing = 1;
 };
@@ -148,7 +148,7 @@ class RscStructuredText
 	};
 	class Attributes
 	{
-		font = "PuristaMedium";
+		font = "RobotoCondensed";
 		color = "#ffffff";
 		align = "left";
 		shadow = 1;
@@ -225,7 +225,7 @@ class RscEdit
 	text = "";
 	size = 0.2;
 	style = "0x00 + 0x40";
-	font = "PuristaMedium";
+	font = "RobotoCondensed";
 	shadow = 2;
 	sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 	colorDisabled[] =
@@ -354,7 +354,7 @@ class RscCombo
 		1,
 		0.25
 	};
-	font = "PuristaMedium";
+	font = "RobotoCondensed";
 	sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 };
 class RscListBox
@@ -451,7 +451,7 @@ class RscListBox
 		border = "\A3\ui_f\data\gui\cfg\scrollbar\border_ca.paa";
 	};
 	style = 16;
-	font = "PuristaMedium";
+	font = "RobotoCondensed";
 	sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 	shadow = 0;
 	colorShadow[] =
@@ -572,7 +572,7 @@ class RscButton
 	w = 0.095589;
 	h = 0.039216;
 	shadow = 2;
-	font = "PuristaMedium";
+	font = "RobotoCondensed";
 	sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 	offsetX = 0.003;
 	offsetY = 0.003;
@@ -647,7 +647,7 @@ class RscShortcutButton
 	};
 	class Attributes
 	{
-		font = "PuristaMedium";
+		font = "RobotoCondensed";
 		color = "#E5E5E5";
 		align = "left";
 		shadow = "true";
@@ -667,7 +667,7 @@ class RscShortcutButton
 	periodFocus = 1.2;
 	periodOver = 0.8;
 	period = 0.4;
-	font = "PuristaMedium";
+	font = "RobotoCondensed";
 	size = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 	sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 	text = "";
@@ -698,7 +698,7 @@ class RscShortcutButton
 	action = "";
 	class AttributesImage
 	{
-		font = "PuristaMedium";
+		font = "RobotoCondensed";
 		color = "#E5E5E5";
 		align = "left";
 	};
@@ -752,7 +752,7 @@ class RscShortcutButtonMain
 	animTexturePressed = "\A3\ui_f\data\GUI\RscCommon\RscShortcutButtonMain\down_ca.paa";
 	animTextureDefault = "\A3\ui_f\data\GUI\RscCommon\RscShortcutButtonMain\normal_ca.paa";
 	period = 0.5;
-	font = "PuristaMedium";
+	font = "RobotoCondensed";
 	size = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1.2)";
 	sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1.2)";
 	text = "";
@@ -783,14 +783,14 @@ class RscShortcutButtonMain
 	action = "";
 	class Attributes
 	{
-		font = "PuristaMedium";
+		font = "RobotoCondensed";
 		color = "#E5E5E5";
 		align = "left";
 		shadow = "false";
 	};
 	class AttributesImage
 	{
-		font = "PuristaMedium";
+		font = "RobotoCondensed";
 		color = "#E5E5E5";
 		align = "false";
 	};
@@ -815,7 +815,7 @@ class RscFrame
 		1,
 		1
 	};
-	font = "PuristaMedium";
+	font = "RobotoCondensed";
 	sizeEx = 0.02;
 	text = "";
 };
@@ -855,7 +855,7 @@ class IGUIBack
 		0,
 		0
 	};
-	font = "PuristaMedium";
+	font = "RobotoCondensed";
 	sizeEx = 0;
 	shadow = 0;
 	x = 0.1;
@@ -935,7 +935,7 @@ class RscCheckbox
 		0.4,
 		1
 	};
-	font = "PuristaMedium";
+	font = "RobotoCondensed";
 	sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 0.8)";
 	rows = 1;
 	columns = 1;
@@ -1021,7 +1021,7 @@ class RscButtonMenu
 	};
 	class Attributes
 	{
-		font = "PuristaLight";
+		font = " RobotoCondensedLight";
 		color = "#E5E5E5";
 		align = "left";
 		shadow = "false";

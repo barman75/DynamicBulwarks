@@ -48,9 +48,9 @@ if(BULWARK_MEDIKITS > 0) then {
 };
 
 //Add actions to Bulwark Box
-[bulwarkBox, ["<t color='#00ffff'>" + "Pickup", "bulwark\moveBox.sqf","",1,false,false,"true","true",2.5]] remoteExec ["addAction", 0, true];
-[bulwarkBox, ["<t color='#00ff00'>" + "Shop", "[] spawn bulwark_fnc_purchaseGui; ShopCaller = _this select 1","",1.5,false,false,"true","true",2.5]] remoteExec ["addAction", 0, true];
-[bulwarkBox, ["<t color='#ff0000'>" + "Heal Yourself: 500p", "
+[bulwarkBox, ["<t color='#00ffff'>" + localize "STR_ACTION_PICKUP", "bulwark\moveBox.sqf","",1,false,false,"true","true",2.5]] remoteExec ["addAction", 0, true];
+[bulwarkBox, ["<t color='#00ff00'>" + localize "STR_ACTION_SHOP", "[] spawn bulwark_fnc_purchaseGui; ShopCaller = _this select 1","",1.5,false,false,"true","true",2.5]] remoteExec ["addAction", 0, true];
+[bulwarkBox, ["<t color='#ff0000'>" + localize "STR_ACTION_HEAL", "
 	_player = _this select 1;
 	_points = _player getVariable 'killPoints';
 	if (_points >= 500) then {
@@ -69,7 +69,7 @@ mainZeus addCuratorEditableObjects [[bulwarkBox], true];
 //Add EH for text to explain the FAK to Medkit feature
 [bulwarkBox, ["ContainerOpened", {
 	_playerId = _this select 1;
-	["<t size = '.5'>Place 15 FAKs into the Bulwark to convert them into a Medikit</t>", 0, 1, 60, 0] remoteExec ["BIS_fnc_dynamicText", _playerId];
+	[localize "STR_CREATEBASE_CONVERTFAK", 0, 1, 60, 0] remoteExec ["BIS_fnc_dynamicText", _playerId];
 }]] remoteExec ["addEventHandler", 0, true];
 [bulwarkBox, ["ContainerClosed", {
 	_playerId = _this select 1;
@@ -135,9 +135,9 @@ _lootBoxRoom = while {true} do {
 };
 lootBox = createVehicle ["Land_WoodenBox_F", _lootBoxRoom, [], 4];
 publicVariable "lootBox";
-[lootBox, ["<t color='#00ffff'>" + "Pickup", "bulwark\moveSpinBox.sqf"]] remoteExec ["addAction", 0, true];
+[lootBox, ["<t color='#00ffff'>" + localize "STR_ACTION_PICKUP", "bulwark\moveSpinBox.sqf"]] remoteExec ["addAction", 0, true];
 [lootBox, [
-	format ["<t color='#FF0000'>Spin the box! %1p</t>", SCORE_RANDOMBOX], "
+	format [localize "STR_ACTION_SPINTHEBOX", SCORE_RANDOMBOX], "
 		lootBoxPos    = getPos lootBox;
 		lootBoxPosATL = getPosATL lootBox;
 		lootBoxDir    = getDir lootBox;

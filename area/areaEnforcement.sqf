@@ -22,13 +22,13 @@ while {true} do {
 
             // Warn the player that they're too far from the centre
             case ((_x distance2D bulwarkCity) > BULWARK_RADIUS * 0.99): {
-                ["<t color='#ff0000'>Warning: Leaving mission area!</t>", 0, 0.1, 2, 0] remoteExec ["BIS_fnc_dynamicText", _x];
+                [localize "STR_AREAENFORCEMENT_WARNING01", 0, 0.1, 2, 0] remoteExec ["BIS_fnc_dynamicText", _x];
             };
             case ((_x distance2D bulwarkCity) > BULWARK_RADIUS * 0.95): {
-                ["<t color='#ffff00'>Warning: Leaving mission area!</t>", 0, 0.1, 2, 0] remoteExec ["BIS_fnc_dynamicText", _x];
+                [localize "STR_AREAENFORCEMENT_WARNING02", 0, 0.1, 2, 0] remoteExec ["BIS_fnc_dynamicText", _x];
             };
             case ((_x distance2D bulwarkCity) > BULWARK_RADIUS * 0.9): {
-                ["<t color='#ffffff'>Warning: Leaving mission area!</t>", 0, 0.1, 2, 0] remoteExec ["BIS_fnc_dynamicText", _x];
+                [localize "STR_AREAENFORCEMENT_WARNING03", 0, 0.1, 2, 0] remoteExec ["BIS_fnc_dynamicText", _x];
             };
 
             default {};

@@ -12,7 +12,7 @@ _curWave = attkWave;
 
 deleteVehicle _droneBox;
 
-["IntelAdded",["Hostiles added to MAP"]] remoteExec ["BIS_fnc_showNotification", 0];
+["IntelAdded",[localize "STR_RECONDRONE_INTELADD"]] remoteExec ["BIS_fnc_showNotification", 0];
 
 while {_curWave == attkWave} do {
 	{if ((side _x) == east) then

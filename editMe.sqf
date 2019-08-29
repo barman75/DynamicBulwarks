@@ -97,15 +97,15 @@ HOSTILE_ARMOUR_POINT_SCORE = 4;
 /* Comment out or delete the below support items to prevent the player from buying them */
 
 BULWARK_SUPPORTITEMS = [
-    [800,  "Recon UAV",             "reconUAV"],
-    [1680, "Emergency Teleport",   "telePlode"],
-    [1950, "Paratroopers",          "paraDrop"],
-    [3850, "Missile CAS",          "airStrike"],
-    [4220, "Mine Cluster Shell",   "mineField"],
-    [4690, "Rage Stimpack",         "ragePack"],
-    [5930, "Mind Control Gas",    "mindConGas"],
-    [6666, "ARMAKART TM",           "armaKart"],
-    [7500, "Predator Drone",    "droneControl"]
+    [800,  localize "STR_EDITME_SUPPORTITEMS_RECONUAV",             "reconUAV"],
+    [1680, localize "STR_EDITME_SUPPORTITEMS_TELEPORT",   "telePlode"],
+    [1950, localize "STR_EDITME_SUPPORTITEMS_PARADROP",          "paraDrop"],
+    [3850, localize "STR_EDITME_SUPPORTITEMS_AIRSTRIKE",          "airStrike"],
+    [4220, localize "STR_EDITME_SUPPORTITEMS_MINEFIELD",   "mineField"],
+    [4690, localize "STR_EDITME_SUPPORTITEMS_RAGEPACK",         "ragePack"],
+    [5930, localize "STR_EDITME_SUPPORTITEMS_MINDCONGAS",    "mindConGas"],
+    [6666, localize "STR_EDITME_SUPPORTITEMS_ARMAKART",           "armaKart"],
+    [7500, localize "STR_EDITME_SUPPORTITEMS_DRONECONTROL",    "droneControl"]
 ];
 
 /* Objects the Player can buy */
@@ -114,32 +114,33 @@ BULWARK_SUPPORTITEMS = [
 
 /*  Price - Display Name - Class Name - Rotation When Bought - Object Radius (meters) *prevents AI glitching through object and triggers suicide bombers*/
 BULWARK_BUILDITEMS = [
-    [25,   "Long Plank (8m)",      "Land_Plank_01_8m_F",                0,   4],
-    [50,   "Junk Barricade",       "Land_Barricade_01_4m_F",            0, 1.5],
-    [75,   "Small Ramp (1m)",      "Land_Obstacle_Ramp_F",            180, 1.5],
-    [85,   "Flat Triangle (1m)",   "Land_DomeDebris_01_hex_green_F",  180, 1.5],
-    [100,  "Short Sandbag Wall",   "Land_SandbagBarricade_01_half_F",   0, 1.5],
-    [150,  "Sandbag Barricade",    "Land_SandbagBarricade_01_hole_F",   0, 1.5],
-    [180,  "Concrete Shelter",     "Land_CncShelter_F",                 0,   1],
-    [200,  "Concrete Walkway",     "Land_GH_Platform_F",                0, 3.5],
-    [250,  "Tall Concrete Wall",   "Land_Mil_WallBig_4m_F",             0,   2],
-    [260,  "Portable Light",       "Land_PortableLight_double_F",     180,   1],
-    [300,  "Long Concrete Wall",   "Land_CncBarrierMedium4_F",          0,   3],
-    [400,  "Large Ramp",           "Land_VR_Slope_01_F",                0,   4],
-    [500,  "Bunker Block",         "Land_Bunker_01_blocks_3_F",         0,   2],
-    [500,  "H Barrier",            "Land_HBarrier_3_F",                 0,   2],
-    [750,  "Ladder",               "Land_PierLadder_F",                 0,   1],
-    [800,  "Storage box small",    "Box_NATO_Support_F",                0,   1],
-    [950,  "Stairs",               "Land_GH_Stairs_F",                180,   4],
-    [1000, "Hallogen Lamp",        "Land_LampHalogen_F",               90,   1],
-    [1000, "Double H Barrier",     "Land_HBarrierWall4_F",              0,   4],
-    [1000, "Concrete Platform",    "BlockConcrete_F",                   0, 3.5],
-    [1200, "Storage box large",    "Box_NATO_AmmoVeh_F",                0,   1],
-    [2500, "Static HMG",           "B_HMG_01_high_F",                   0,   1],
-    [3000, "Small Bunker",         "Land_BagBunker_Small_F",          180,   3],
-    [4500, "Pillbox",              "Land_PillboxBunker_01_hex_F",      90, 2.5],
-    [6000, "Guard Tower",          "Land_Cargo_Patrol_V3_F",            0, 3.5],
-    [9500, "Modular Bunker",       "Land_Bunker_01_Small_F",          180, 3.5]
+    [25,   localize "STR_EDITME_BUILD_LPLANK",      "Land_Plank_01_8m_F",                0,   4],
+    [50,   localize "STR_EDITME_BUILD_BARR4M",       "Land_Barricade_01_4m_F",            0, 1.5],
+    [75,   localize "STR_EDITME_BUILD_SMALLRAMP",      "Land_Obstacle_Ramp_F",            180, 1.5],
+    [85,   localize "STR_EDITME_BUILD_TRIANGLE",   "Land_DomeDebris_01_hex_green_F",  180, 1.5],
+    [100,  localize "STR_EDITME_BUILD_SBWALLHALF",   "Land_SandbagBarricade_01_half_F",   0, 1.5],
+    [150,  localize "STR_EDITME_BUILD_SBBARRHOLE",    "Land_SandbagBarricade_01_hole_F",   0, 1.5],
+    [180,  localize "STR_EDITME_BUILD_CNCSHELTER",     "Land_CncShelter_F",                 0,   1],
+    [200,  localize "STR_EDITME_BUILD_GH_PLATFORM",     "Land_GH_Platform_F",                0, 3.5],
+    [250,  localize "STR_EDITME_BUILD_MIL_WALLBIG",   "Land_Mil_WallBig_4m_F",             0,   2],
+    [260,  localize "STR_EDITME_BUILD_PORTABLELIGHT",       "Land_PortableLight_double_F",     180,   1],
+    [300,  localize "STR_EDITME_BUILD_CNCBARRIERMEDIUM4",   "Land_CncBarrierMedium4_F",          0,   3],
+    [400,  localize "STR_EDITME_BUILD_VRSLOPE1",           "Land_VR_Slope_01_F",                0,   4],
+    [500,  localize "STR_EDITME_BUILD_BUNKERBLOCK01",         "Land_Bunker_01_blocks_3_F",         0,   2],
+    [500,  localize "STR_EDITME_BUILD_HBARRIER3",            "Land_HBarrier_3_F",                 0,   2],
+    [700,  localize "STR_EDITME_BUILD_HBARRIER5",   "Land_HBarrier_5_F",                 0,   3, false],
+    [750,  localize "STR_EDITME_BUILD_PIERLADDER",               "Land_PierLadder_F",                 0,   1],
+    [800,  localize "STR_EDITME_BUILD_SMALLSTORAGE",    "Box_NATO_Support_F",                0,   1],
+    [950,  localize "STR_EDITME_BUILD_STAIRS",               "Land_GH_Stairs_F",                180,   4],
+    [1000, localize "STR_EDITME_BUILD_LAMPHALOGEN",        "Land_LampHalogen_F",               90,   1],
+    [1000, localize "STR_EDITME_BUILD_HBARRIERWALL4",     "Land_HBarrierWall4_F",              0,   4],
+    [1000, localize "STR_EDITME_BUILD_BLOCKCONCRETE",    "BlockConcrete_F",                   0, 3.5],
+    [1200, localize "STR_EDITME_BUILD_LARGESTORAGE",    "Box_NATO_AmmoVeh_F",                0,   1],
+    [2500, localize "STR_EDITME_BUILD_HMGHIGH",           "B_HMG_01_high_F",                   0,   1],
+    [3000, localize "STR_EDITME_BUILD_SMALLBUNKER",         "Land_BagBunker_Small_F",          180,   3],
+    [4500, localize "STR_EDITME_BUILD_PILLBOXBUNKER",              "Land_PillboxBunker_01_hex_F",      90, 2.5],
+    [6000, localize "STR_EDITME_BUILD_GUARDTOWER",          "Land_Cargo_Patrol_V3_F",            0, 3.5],
+    [9500, localize "STR_EDITME_BUILD_MODULARBUNKER",       "Land_Bunker_01_Small_F",          180, 3.5]
 ];
 
 /* Time of Day*/

@@ -1,8 +1,8 @@
 onLoadMission = "dynamicBulwarks";
-onLoadIntro = "Defend yourself";
+onLoadIntro = "$STR_DESCRIPTION_ONLOADINTRO";
 onLoadName = "dynamicBulwarks";
 briefingName = "dynamicBulwarks";
-overviewText = "Survive by scavenging equipment, in a randomly selected city, against ever increasing waves of hostiles.";
+overviewText = "$STR_DESCRIPTION_OVERVIEWTEXT";
 author = "Hilltop & omNomios";
 overviewPicture = "preview.paa";
 
@@ -76,18 +76,18 @@ class CfgDebriefing
 {
 	class End1
 	{
-		title = [END];
-		subtitle = "You were wiped out";
-		description = "Game Over";
+		title = "$STR_DESCRIPTION_END1_TITLE";
+		subtitle = "$STR_DESCRIPTION_END1_SUBTITLE";
+		description = "$STR_DESCRIPTION_END1_DESCRIPTION";
 		pictureBackground = "";
 		picture = "KIA";
 		pictureColor[] = {0.6,0.1,0.2,1};
 	};
 	class End2
 	{
-		title = "[BULWARK SAFE]";
-		subtitle = "You Won";
-		description = "Your bulwark is secure";
+		title = "$STR_DESCRIPTION_END2_TITLE";
+		subtitle = "$STR_DESCRIPTION_END2_SUBTITLE";
+		description = "$STR_DESCRIPTION_END2_DESCRIPTION";
 		pictureBackground = "";
 		picture = "b_inf";
 		pictureColor[] = {0.0,0.3,0.6,1};
@@ -187,7 +187,7 @@ class Params
 {
 	class HOSTILE_LABEL
 	{
-		title = "======= Wave Settings =======";
+		title = "$STR_DESCRIPTION_WAWESETTINGS";
 		values[] = {0};
 		texts[] = {""};
 		default = 0;
@@ -195,15 +195,15 @@ class Params
 
 	class HOSTILE_MULTIPLIER
 	{
-		title = "Number of hostiles per wave";
+		title = "$STR_DESCRIPTION_WAWESET_HOSTILENUMBER";
 		values[] = {0.5,1,2,3};
-		texts[] = {"Low (Easiest)", "Normal", "Double", "Tripple (Hardest)"};
+		texts[] = {"$STR_DESCRIPTION_WAWESET_LOW", "$STR_DESCRIPTION_WAWESET_NORMAL", "$STR_DESCRIPTION_WAWESET_DOUBLE", "$STR_DESCRIPTION_WAWESET_TRIPLE"};
 		default = 1;
 	};
 
 	class HOSTILE_TEAM_MULTIPLIER
 	{
-		title = "Extra hostiles per player";
+		title = "$STR_DESCRIPTION_WAWESET_MULTIPLIER";
 		values[] = {50, 100, 150, 200};
 		texts[] = {"0.5", "1", "1.5", "2"};
 		default = 50;
@@ -211,97 +211,97 @@ class Params
 
 	class PISTOL_HOSTILES
 	{
-		title = "Hostiles only use pistols until wave";
+		title = "$STR_DESCRIPTION_PISTOLS_UNTILWAVE";
 		values[] = {0, 1, 2, 3, 4, 5, 10, 15, 25, 30};
-		texts[] = {"Start Fully Armed", "One", "Two", "Three", "Four", "Five", "Ten", "Fifteen", "Twenty", "Twenty Five", "Thirty"};
+		texts[] = {"$STR_DESCRIPTION_PISTOLS_FULLYARMED", "1", "2", "3", "4", "5", "10", "15", "20", "25", "30"};
 		default = 3;
 	};
 
 	class BODY_CLEANUP
 	{
-		title = "Dead bodies remain for how many waves (dead bodies impact perfomance)";
+		title = "$STR_DESCRIPTION_BODY_CLEANUP";
 		values[] = {0, 1, 2};
-		texts[] = {"0 (until next round begins)", "1", "2"};
+		texts[] = {"$STR_DESCRIPTION_BODY_CLEANUP_NEXTRND", "1", "2"};
 		default = 0;
 	};
 
 	class DOWN_TIME
 	{
-		title = "Time between rounds";
+		title = "$STR_DESCRIPTION_DOWN_TIME";
 		values[] = {0, 15, 30, 60, 90, 120, 180, 240, 300};
-		texts[] = {"0", "15 Seconds", "30 Seconds", "1 Minute", "1 Minute 30 Seconds", "2 Minutes", "3 Minutes", "4 Minutes", "5 Minutes"};
+		texts[] = {"0", "$STR_DESCRIPTION_DOWN_TIME_15", "$STR_DESCRIPTION_DOWN_TIME_30", "$STR_DESCRIPTION_DOWN_TIME_60", "$STR_DESCRIPTION_DOWN_TIME_90", "$STR_DESCRIPTION_DOWN_TIME_120", "$STR_DESCRIPTION_DOWN_TIME_180", "$STR_DESCRIPTION_DOWN_TIME_240", "$STR_DESCRIPTION_DOWN_TIME_300"};
 		default = 60;
 	};
 
 	class MAX_WAVES
 	{
-		title = "How Many Waves";
+		title = "$STR_DESCRIPTION_MAX_WAVES";
 		values[] = {"infinite", 20, 30, 40};
-		texts[] = {"Infinite", "20", "30", "40"};
+		texts[] = {"$STR_DESCRIPTION_MAXWAVES_INF", "20", "30", "40"};
 		default = "infinite";
 	};
 
 	class BULWARK_MEDIKIT
 	{
-		title = "Medikits in Bulwark";
+		title = "$STR_DESCRIPTION_MEDIKIT";
 		values[] = {0, 1, 2, 3, 4, 5, 6, 7, 8};
-		texts[] = {"None", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight"};
+		texts[] = {"$STR_DESCRIPTION_MEDIKIT_0", "$STR_DESCRIPTION_MEDIKIT_1", "$STR_DESCRIPTION_MEDIKIT_2", "$STR_DESCRIPTION_MEDIKIT_3", "$STR_DESCRIPTION_MEDIKIT_4", "$STR_DESCRIPTION_MEDIKIT_5", "$STR_DESCRIPTION_MEDIKIT_6", "$STR_DESCRIPTION_MEDIKIT_7", "$STR_DESCRIPTION_MEDIKIT_8"};
 		default = 3;
 	};
 
 	class PLAYER_STARTMAP
 	{
-		title = "Start with map";
+		title = "$STR_DESCRIPTION_STARTMAP";
 		values[] = {0, 1};
-		texts[] = {"No", "Yes"};
+		texts[] = {"$STR_DESCRIPTION_NO", "$STR_DESCRIPTION_YES"};
 		default = 1;
 	};
 
 	class PLAYER_STARTWEAPON
 	{
-		title = "Players start with pistol";
+		title = "$STR_DESCRIPTION_STARTWEAPON";
 		values[] = {0, 1};
-		texts[] = {"No", "Yes"};
+		texts[] = {"$STR_DESCRIPTION_NO", "$STR_DESCRIPTION_YES"};
 		default = 0;
 	};
 
 	class PLAYER_STARTNVG
 	{
-		title = "Players start with NVG";
+		title = "$STR_DESCRIPTION_STARTNVG";
 		values[] = {0, 1};
-		texts[] = {"No", "Yes"};
+		texts[] = {"$STR_DESCRIPTION_NO", "$STR_DESCRIPTION_YES"};
 		default = 0;
 	};
 
 	class SPECIAL_WAVES
 	{
-		title = "Special Waves - suicide bombers, etc";
+		title = "$STR_DESCRIPTION_SPECIAL_WAVES";
 		values[] = {0, 1};
-		texts[] = {"No", "Yes"};
+		texts[] = {"$STR_DESCRIPTION_NO", "$STR_DESCRIPTION_YES"};
 		default = 1;
 	};
 
 	class ARMOUR_START_WAVE
 	{
-		title = "Vehicles can spawn after wave";
+		title = "$STR_DESCRIPTION_ARMOUR";
 		values[] = {5, 10, 15, 20, 25, 9999};
-		texts[] = {"5", "10", "15", "20", "25", "Never"};
+		texts[] = {"5", "10", "15", "20", "25", "$STR_DESCRIPTION_NEVER"};
 		default = 5;
 	};
 
 	class RANDOM_WEAPONS
 	{
-		title = "Randomize Hostile Weapons";
+		title = "$STR_DESCRIPTION_RANDOM_WEAPONS";
 		values[] = {"true", "false"};
-		texts[] = {"Yes", "No"};
-		default = "No";
+		texts[] = {"$STR_DESCRIPTION_YES", "$STR_DESCRIPTION_NO"};
+		default = "false";
 	};
 
 	class HUD_POINT_HITMARKERS
 	{
-		title = "Point Hitmarkers on HUD";
+		title = "$STR_DESCRIPTION_HITMARKERS";
 		values[] = {1, 0};
-		texts[] = {"Yes", "No"};
+		texts[] = {"$STR_DESCRIPTION_YES", "$STR_DESCRIPTION_NO"};
 		default = "1";
 	};
 
@@ -315,7 +315,7 @@ class Params
 
 	class BULWARK_LABEL
 	{
-		title = "===== Bulwark Settings ======";
+		title = "$STR_DESCRIPTION_BULWARKSET";
 		values[] = {0};
 		texts[] = {""};
 		default = 0;
@@ -323,15 +323,15 @@ class Params
 
 	class BULWARK_RADIUS
 	{
-		title = "Mission area size";
+		title = "$STR_DESCRIPTION_BULWARK_RADIUS";
 		values[] = {50, 100, 150, 200, 250};
-		texts[] = {"(50m) Tiny", "(100m) Small", "(150m) Normal", "(200m) Large", "(250m) Huge"};
+		texts[] = {"$STR_DESCRIPTION_BUL_RADIUS50", "$STR_DESCRIPTION_BUL_RADIUS100", "$STR_DESCRIPTION_BUL_RADIUS150", "$STR_DESCRIPTION_BUL_RADIUS200", "$STR_DESCRIPTION_BUL_RADIUS250"};
 		default = 150;
 	};
 
 	class BULWARK_MINSIZE
 	{
-		title = "Minimum spawn room size";
+		title = "$STR_DESCRIPTION_BULWARK_MINSIZE";
 		values[] = {10, 13, 15, 18, 20};
 		texts[] = {"10m²", "13m²", "15m²", "18m²", "20m²"};
 		default = 13;
@@ -339,7 +339,7 @@ class Params
 
 	class BULWARK_LANDRATIO
 	{
-		title = "Minimum land area (To avoid spawning on a dock)";
+		title = "$STR_DESCRIPTION_BULWARK_LANDRATIO";
 		values[] = {60, 70, 80, 90, 100};
 		texts[] = {"60%","70%","80%","90%","100%"};
 		default = 80;
@@ -347,7 +347,7 @@ class Params
 
 	class LOOT_HOUSE_DENSITY
 	{
-		title = "Minimum number of buildings in Bulwark radius";
+		title = "$STR_DESCRIPTION_HOUSE_DENSITY";
 		values[] = {5, 10, 15, 20, 30};
 		texts[] = {"5","10","15","20","30"};
 		default = 10;
@@ -355,41 +355,41 @@ class Params
 
 	class LOOT_HOUSE_DISTRIBUTION
 	{
-		title = "Loot distribution";
+		title = "$STR_DESCRIPTION_LOOT_HOUSE_DIS";
 		values[] = {1, 2, 3, 4};
-		texts[] = {"Every building", "Every second building", "Every third building", "Every fourth building"};
+		texts[] = {"$STR_DESCRIPTION_LOOT_HOUSE_DIST_1", "$STR_DESCRIPTION_LOOT_HOUSE_DIST_2", "$STR_DESCRIPTION_LOOT_HOUSE_DIST_3", "$STR_DESCRIPTION_LOOT_HOUSE_DIST_4"};
 		default = 2;
 	};
 
 	class LOOT_ROOM_DISTRIBUTION
 	{
-		title = "Loot density";
+		title = "$STR_DESCRIPTION_LOOT_ROOM_DIST";
 		values[] = {1, 2, 3, 4};
-		texts[] = {"Every location", "Every second location", "Every third location", "Every fourth location"};
+		texts[] = {"$STR_DESCRIPTION_LOOT_ROOM_DIST_1", "$STR_DESCRIPTION_LOOT_ROOM_DIST_2", "$STR_DESCRIPTION_LOOT_ROOM_DIST_3", "$STR_DESCRIPTION_LOOT_ROOM_DIST_4"};
 		default = 2;
 	};
 
 	class LOOT_SUPPLYDROP
 	{
-		title = "Supply drop distance from centre";
+		title = "$STR_DESCRIPTION_SUPPLYDROP";
 		values[] = {0, 25, 50, 75};
-		texts[] = {"Dead centre", "25%", "50%", "75%"};
+		texts[] = {"$STR_DESCRIPTION_SUPPLYDROP_CENTR", "25%", "50%", "75%"};
 		default = 25;
 	};
 
 	class DAY_TIME_FROM
 	{
-		title = "Earliest time of day";
+		title = "$STR_DESCRIPTION_TIMEFROM";
 		values[] = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22};
-		texts[] = {"2am","4am","6am","8am","10am","Midday", "2pm", "4pm", "6pm", "8pm", "10pm"};
+		texts[] = {"$STR_DESCRIPTION_TIME_02","$STR_DESCRIPTION_TIME_04","$STR_DESCRIPTION_TIME_06","$STR_DESCRIPTION_TIME_08","$STR_DESCRIPTION_TIME_10","$STR_DESCRIPTION_TIME_12", "$STR_DESCRIPTION_TIME_14", "$STR_DESCRIPTION_TIME_16", "$STR_DESCRIPTION_TIME_18", "$STR_DESCRIPTION_TIME_20", "$STR_DESCRIPTION_TIME_22"};
 		default = 8;
 	};
 
 	class DAY_TIME_TO
 	{
-		title = "Latest time of day";
+		title = "$STR_DESCRIPTION_TIMETO";
 		values[] = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22};
-		texts[] = {"2am","4am","6am","8am","10am","Midday", "2pm", "4pm", "6pm", "8pm", "10pm"};
+		texts[] = {"$STR_DESCRIPTION_TIME_02","$STR_DESCRIPTION_TIME_04","$STR_DESCRIPTION_TIME_06","$STR_DESCRIPTION_TIME_08","$STR_DESCRIPTION_TIME_10","$STR_DESCRIPTION_TIME_12", "$STR_DESCRIPTION_TIME_14", "$STR_DESCRIPTION_TIME_16", "$STR_DESCRIPTION_TIME_18", "$STR_DESCRIPTION_TIME_20", "$STR_DESCRIPTION_TIME_22"};
 		default = 16;
 	};
 
@@ -403,7 +403,7 @@ class Params
 
 	class POWERUP_LABEL
 	{
-		title = "====== Powerup Settings =====";
+		title = "$STR_DESCRIPTION_POWERUP_LABEL";
 		values[] = {0};
 		texts[] = {""};
 		default = 0;
@@ -411,7 +411,7 @@ class Params
 
 	class START_KILLPOINTS
 	{
-		title = "Kill points players start with";
+		title = "$STR_DESCRIPTION_START_KILLPOINTS";
 		values[] = {0, 250, 500, 1000, 2500, 5000, 10000};
 		texts[] = {"0", "250", "500", "1000", "2500", "5000", "10000"};
 		default = 0;
@@ -419,15 +419,15 @@ class Params
 
 	class SUPPORT_MENU
 	{
-		title = "Find Satellite Dish to Unlock Supports";
+		title = "$STR_DESCRIPTION_SUPPORT_MENU";
 		values[] = {0, 1};
-		texts[] = {"No, Supports are available from the begining of the mission", "Yes, find the Satellite Dish to unlock the Support Menu"};
+		texts[] = {"$STR_DESCRIPTION_SUPPORT_MENU_NO", "$STR_DESCRIPTION_SUPPORT_MENU_YES"};
 		default = 1;
 	};
 
 	class SCORE_KILL
 	{
-		title = "Points per kill";
+		title = "$STR_DESCRIPTION_SCORE_KILL";
 		values[] = {10, 50, 100, 150, 200, 300};
 		texts[] = {"10","50","100","150","200","300"};
 		default = 100;
@@ -435,7 +435,7 @@ class Params
 
 	class SCORE_HIT
 	{
-		title = "Points per hit";
+		title = "$STR_DESCRIPTION_SCORE_HIT";
 		values[] = {0, 10, 20, 50, 100};
 		texts[] = {"0","10","20","50","100"};
 		default = 20;
@@ -443,7 +443,7 @@ class Params
 
 	class SCORE_DAMAGE_BASE
 	{
-		title = "Damage bonus points";
+		title = "$STR_DESCRIPTION_SCORE_DAMAGE";
 		values[] = {0, 10, 20, 50, 100};
 		texts[] = {"0","10","20","50","100"};
 		default = 20;
@@ -451,7 +451,7 @@ class Params
 
 	class PARATROOP_COUNT
 	{
-		title = "Paratrooper count";
+		title = "$STR_DESCRIPTION_PARATROOP_COUNT";
 		values[] = {1, 2, 3, 4, 5, 6};
 		texts[] = {"1","2","3","4","5","6"};
 		default = 3;
@@ -467,7 +467,7 @@ class Params
 
 	class REVIVE_LABEL
 	{
-		title = "===== Revive Settings ======";
+		title = "$STR_DESCRIPTION_REVIVE_LABEL";
 		values[] = {0};
 		texts[] = {""};
 		default = 0;
@@ -475,7 +475,7 @@ class Params
 
 	class ReviveRequiredItems
 	{
-		title = "Required items";
+		title = "$STR_DESCRIPTION_REVIVE_ITEMS";
 		isGlobal = 1;
 
 		values[] = {
@@ -484,9 +484,9 @@ class Params
 			2
 		};
 		texts[] = {
-			"None",
-			"Medikit",
-			"First Aid Kit / Medikit"
+			"$STR_DESCRIPTION_REVIVE_NONE",
+			"$STR_DESCRIPTION_REVIVE_MEDIKIT",
+			"$STR_DESCRIPTION_REVIVE_FAKMEDIKIT"
 		};
 		default = 2;
 		function = "bis_fnc_paramReviveRequiredItems";
@@ -494,7 +494,7 @@ class Params
 
 	class RESPAWN_TICKETS
 	{
-		title = "Tickets";
+		title = "$STR_DESCRIPTION_RESPAWN_TICKETS";
 		values[] = {0, 5, 10, 15, 20};
 		texts[] = {"0", "5", "10", "15", "20"};
 		default = 0;
@@ -502,7 +502,7 @@ class Params
 
 	class RESPAWN_TIME
 	{
-		title = "Respawn Time";
+		title = "$STR_DESCRIPTION_RESPAWN_TIME";
 		values[] = {0, 5, 10, 20, 30};
 		texts[] = {"0", "5", "10", "20", "30"};
 		default = 10;
@@ -510,9 +510,9 @@ class Params
 
 	class TEAM_DAMAGE
 	{
-		title = "Freindly Fire";
+		title = "$STR_DESCRIPTION_TEAM_DAMAGE";
 		values[] = {0, 1};
-		texts[] = {"Off", "On"};
+		texts[] = {"$STR_DESCRIPTION_TEAMDAMAGE_OFF", "$STR_DESCRIPTION_TEAMDAMAGE_ON"};
 		default = 1;
 	};
 

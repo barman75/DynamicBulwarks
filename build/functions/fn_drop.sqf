@@ -15,7 +15,7 @@ _object setVehiclePosition [_object, [], 0, 'CAN_COLLIDE'],
 [
 	_object,
 	[
-		'<t color="#ff0000">Remove Object</t>',
+		localize 'STR_FNDROP_ACTION_REMOVEOBJ',
 		'[_this select 0, _this select 1] call build_fnc_sell;',
 		'', 1, false, false, 'true', 'true', 5
 	]
@@ -24,7 +24,7 @@ _object setVehiclePosition [_object, [], 0, 'CAN_COLLIDE'],
 [
 	_object,
 	[
-		'<t color="#00ffff">Move Up</t>',
+		localize 'STR_FNDROP_ACTION_MOVEUP',
 		'[_this select 0, _this select 3, _this select 1] call build_fnc_move;',
 		[0,0,0.5],2,false,false,'true','true',5
 	]
@@ -33,7 +33,7 @@ _object setVehiclePosition [_object, [], 0, 'CAN_COLLIDE'],
 [
 	_object,
 	[
-		'<t color="#00ff00">Move Down</t>',
+		localize 'STR_FNDROP_ACTION_MOVEDOWN',
 		'[_this select 0, _this select 3, _this select 1] call build_fnc_move;',
 		[0,0,-0.5],2,false,false,'true','true',5
 	]
@@ -42,7 +42,7 @@ _object setVehiclePosition [_object, [], 0, 'CAN_COLLIDE'],
 [
 	_object,
 	[
-		'<t color="#ffffff">Pickup</t>',
+		localize 'STR_FNDROP_ACTION_PICKUP',
 		'[_this select 0, _this select 1] call build_fnc_pickup;',
 		[0,0,0.5],2,false,false,'true','true',5
 	]
@@ -51,7 +51,7 @@ _object setVehiclePosition [_object, [], 0, 'CAN_COLLIDE'],
 [
 	_object,
 	[
-		'<t color="#ffff00">Reset Rotation</t>',
+		localize 'STR_FNDROP_ACTION_RESET',
 		'[_this select 0, _this select 1] call build_fnc_reset;',
 		[0,0,0.5],2,false,false,'true','true',5
 	]

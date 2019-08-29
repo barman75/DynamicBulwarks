@@ -18,7 +18,7 @@ droneRoom = while {true} do {
 	if(!isNil "_lootRoom") exitWith {_lootRoom};
 };
 _droneSupport = createVehicle ["Box_C_UAV_06_Swifd_F", droneRoom, [], 0, "CAN_COLLIDE"];
-[_droneSupport, ["<t color='#ff00ff'>" + "Reveal loot", "removeAllActions (_this select 0); [ [],'supports\lootDrone.sqf'] remoteExec ['execVM',0];","",1,true,false,"true","true",2.5]] remoteExec ["addAction", 0, true];
+[_droneSupport, ["<t color='#ff00ff'>" + localize "STR_ACTION_REVEALLOOT", "removeAllActions (_this select 0); [ [],'supports\lootDrone.sqf'] remoteExec ['execVM',0];","",1,true,false,"true","true",2.5]] remoteExec ["addAction", 0, true];
 mainZeus addCuratorEditableObjects [[_droneSupport], true];
 
 /* Item to unlock Support Menu (1 spawns every wave until found) */
@@ -31,13 +31,13 @@ if (!SUPPORTMENU) then {
 		if(!isNil "_satRoom") exitWith {_satRoom};
 	};
 	_satSupport = createVehicle ["Land_SatelliteAntenna_01_F", satRoom, [], 0, "CAN_COLLIDE"];
-	[_satSupport, ["<t color='#ff00ff'>" + "Unlock Support Menu", "
+	[_satSupport, ["<t color='#ff00ff'>" + localize "STR_ACTION_UNLOCKSUPPORT", "
 		_satSupport = _this select 0;
 		_player = _this select 1;
 		[_satSupport] remoteExec ['removeAllActions', 0];
 		_pointsMulti = ('SCORE_KILL' call BIS_fnc_getParamValue);
 		if (!SUPPORTMENU) then {
-			['TaskAssigned',['Support','Support Menu Unlocked at Bulwark Box']] remoteExec ['BIS_fnc_showNotification', 0];
+			['TaskAssigned',['Support',localize 'STR_SPAWNLOOT_SUPPORTUNLOCKED']] remoteExec ['BIS_fnc_showNotification', 0];
 			['comNoise'] remoteExec ['playSound', 0];
 		};
 		SUPPORTMENU = true;
@@ -63,7 +63,7 @@ pointsLootRoom = while {true} do {
 	if(!isNil "_lootRoom") exitWith {_lootRoom};
 };
 pointsLoot = createVehicle ["Land_Money_F", pointsLootRoom, [], 0, "CAN_COLLIDE"];
-[pointsLoot, ["<t color='#00ff00'>" + "Collect Points", "[_this select 0, _this select 1] execVM 'loot\lootPoints.sqf'; [_this select 0] remoteExec ['removeAllActions', 0];","",1,true,false,"true","true",2.5]] remoteExec ["addAction", 0, true];
+[pointsLoot, ["<t color='#00ff00'>" + localize "STR_ACTION_COLLECTPOINTS", "[_this select 0, _this select 1] execVM 'loot\lootPoints.sqf'; [_this select 0] remoteExec ['removeAllActions', 0];","",1,true,false,"true","true",2.5]] remoteExec ["addAction", 0, true];
 
 //activeLoot pushback pointsLoot;
 
@@ -166,4 +166,4 @@ _roomCount = 0;
 } forEach lootHouses;
 
 /* Supply Drop */
-[bulwarkCity, ["<t color='#00ff00'>" + "FILL AMMO", "supports\ammoDrop.sqf","",2,true,false,"true","true",4], "B_T_VTOL_01_vehicle_F"] remoteExec ["supports_fnc_supplyDrop", 2];
+[bulwarkCity, ["<t color='#00ff00'>" + localize "STR_ACTION_FILLAMMO", "supports\ammoDrop.sqf","",2,true,false,"true","true",4], "B_T_VTOL_01_vehicle_F"] remoteExec ["supports_fnc_supplyDrop", 2];
